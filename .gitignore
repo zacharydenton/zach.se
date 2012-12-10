@@ -6,3 +6,4 @@ bin/hakyll
 _cache
 _deploy
 _site
+*.swp
