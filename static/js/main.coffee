@@ -125,12 +125,12 @@ class GooglePlus
         when "article"
           if activity.object.content?
             attachment = attachments[0]
-            if attachment.image
+            if attachment.fullImage
               if attachment.content
-                content += "<div class='block-image block-image-left'><a href='#{attachment.url}'><img src='#{attachment.image.url}' /></a></div>"
+                content += "<div class='block-image block-image-left'><a href='#{attachment.url}'><img src='#{resizeImage {url: attachment.fullImage.url, resize_w: 192}}' /></a></div>"
                 content += "<p><a href='#{attachment.url}'>#{attachment.displayName}</a></p>"
               else
-                content += "<a href='#{attachment.fullImage.url}'><img src='#{attachment.fullImage.url}' /></a>"
+                content += "<a href='#{attachment.fullImage.url}'><img src='#{resizeImage {url: attachment.fullImage.url, resize_w: 384}}' /></a>"
             else
               content += "<p><a href='#{attachment.url}'>#{attachment.displayName}</a></p>"
             content += "<p>#{activity.object.content}</p>"
@@ -141,7 +141,7 @@ class GooglePlus
             content += "<div class='video'><iframe src='http://www.youtube.com/embed/#{videoId}?autohide=1' frameborder='0' width='560' height='315'></iframe></div>"
             content += "<p>#{activity.object.content}</p>"
         when "photo"
-          content += ("<a href='#{attachment.fullImage.url}'><img src='#{attachment.image.url}' /></a>" for attachment in attachments).join('')
+          content += ("<a href='#{attachment.fullImage.url}'><img src='#{resizeImage {url: attachment.fullImage.url, resize_w: 384}}' /></a>" for attachment in attachments).join('')
           if activity.object.content
             content += "<p>#{activity.object.content}</p>"
 
@@ -161,27 +161,15 @@ class Lastfm
     @target = $(selector)
     if @target?
       $.ajax
-        url: "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=#{@username}&api_key=#{@apikey}&format=json"
+        url: "http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=#{@username}&period=7day&api_key=#{@apikey}&format=json"
         dataType: "jsonp"
         error: (err) ->
           @target.addClass("error").text("Last.fm's busted")
         success: (data) =>
-          @render (album.mbid for album in data.weeklyalbumchart.album when album.mbid).slice(0, @count)
+          @render data.topalbums.album.slice(0, @count)
 
-  render: (mbids) ->
-    jxhr = []
-    albums = new Object()
-    for mbid in mbids
-      jxhr.push($.ajax
-        url: "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=#{@apikey}&mbid=#{mbid}&format=json"
-        dataType: "jsonp"
-        error: (err) ->
-          console.log err
-        success: (data) ->
-          albums[data.album.mbid] = data.album
-      )
-    $.when.apply($, jxhr).done =>
-      @target.html ("<a href='#{albums[mbid].url}'><img title='#{albums[mbid].artist} &mdash; #{albums[mbid].name}' src='#{albums[mbid].image[3]['#text']}' /></a><hr class='short'>" for mbid in mbids).join('')
+  render: (albums) ->
+    @target.html ("<a href='#{album.url}'><img title='#{album.artist.name} &mdash; #{album.name}' src='#{resizeImage {url: album.image[3]['#text'], resize_w: 192}}' /></a><hr class='short'>" for album in albums).join('')
     
 prettyDate = (time) ->
   if navigator.appName == 'Microsoft Internet Explorer'
@@ -219,8 +207,12 @@ prettyDate = (time) ->
     day_diff == 7 and say.last_week or
     day_diff > 7 and Math.ceil(day_diff / 7) + say.weeks_ago
 
+resizeImage = (options) ->
+  # need url, resize_w and/or resize_h
+  "http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&#{$.param options}"
+
 $ ->
   twitter = new Twitter("#tweets", "zacharydenton", 8)
   github = new GitHub("#github-feed", "zacharydenton", 14)
   googleplus = new GooglePlus("#googleplus", "103362376417669694940", 8)
-  lastfm = new Lastfm("#lastfm", "zacharydenton", 8)
+  lastfm = new Lastfm("#lastfm", "zacharydenton", 10)

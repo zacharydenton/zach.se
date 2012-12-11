@@ -146,7 +146,7 @@ buildList field template = setFieldA field $
 
 config :: HakyllConfiguration
 config = defaultHakyllConfiguration {
-        deployCommand = "s3cmd sync _site/ s3://zacharydenton.com",
+        deployCommand = "rsync -av _site/ zach@helios.1337.cx:/srv/http/zacharydenton.com/public/",
         ignoreFile = ignoreFile'
     }
     where
