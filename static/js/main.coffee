@@ -166,7 +166,7 @@ class Lastfm
         error: (err) ->
           @target.addClass("error").text("Last.fm's busted")
         success: (data) =>
-          @render data.topalbums.album.slice(0, @count)
+          @render (album for album in data.topalbums.album when not album.image[3]['#text'].match(/noimage/)?).slice(0, @count)
 
   render: (albums) ->
     @target.html ("<a href='#{album.url}'><img title='#{album.artist.name} &mdash; #{album.name}' src='#{resizeImage {url: album.image[3]['#text'], resize_w: 192}}' /></a><hr class='short'>" for album in albums).join('')
