@@ -81,10 +81,14 @@ main = do
             >>> applyTemplateCompiler "templates/sitemap.xml"
 
         match "atom.xml" $ route idRoute
-        create "atom.xml" $ requireAll_ posts >>> renderAtom feedConfiguration
+        create "atom.xml" $ requireAll_ posts
+            >>> arr (take 8 . recentFirst)
+            >>> renderAtom feedConfiguration
 
         match "rss.xml" $ route idRoute
-        create "rss.xml" $ requireAll_ posts >>> renderRss feedConfiguration
+        create "rss.xml" $ requireAll_ posts
+            >>> arr (take 8 . recentFirst)
+            >>> renderRss feedConfiguration
 
         match "templates/*" $ compile templateCompiler
 
