@@ -1,0 +1,162 @@
+---
+title: Best of 2012
+excerpt: Wherein I list the best books, movies, music, and websites of 2012.
+---
+
+It's been a great year. Here's a list of the best books, movies, albums,
+and websites I discovered in 2012.
+
+Books
+-----
+
+### [The Society of Mind](http://www.amazon.com/Society-Mind-Marvin-Minsky/dp/0671657135)
+
+![The Society of
+Mind](http://chemoton.files.wordpress.com/2010/03/marvin-minsky-the-society-of-mind.jpg)
+
+I came across *The Society of Mind* when I was doing research for a
+philosophy paper earlier this year. In the book, Marvin Minsky theorizes
+that the mind is an emergent phenomenon arising from the interactions of
+mindless "agents".
+
+My takeaway was that the mind is like a giant tree (the hierarchical
+data structure), with the leaf nodes being simple capabilities like
+movement, a desire for food and water, balance, etc., and more complex
+behaviors farther up the tree, each arising from its child
+behaviors/capabilities. Then the root node of the tree would be
+consciousness as we perceive it.
+
+### [Prometheus Rising](http://www.amazon.com/Prometheus-Rising-Robert-Anton-Wilson/dp/1561840564)
+
+![Prometheus
+Rising](http://upload.wikimedia.org/wikipedia/en/a/a6/PrometheusRisingCover.jpg)
+
+*Prometheus Rising*, by the infamous Robert Anton Wilson, was a very
+interesting read. It's basically RAW's attempt to synthesize [Leary's
+eight-circuit model of
+consciousness](http://en.wikipedia.org/wiki/Eight-circuit_model_of_consciousness),
+[general semantics](http://en.wikipedia.org/wiki/General_semantics),
+yoga, quantum physics, and plenty of other weird stuff into an "owner's
+manual for the human brain". Despite being somewhat new-age at times,
+the book changed the way I see the world.
+
+### [Snow Crash](http://www.amazon.com/Snow-Crash-Bantam-Spectra-Book/dp/0553380958)
+
+![Snow
+Crash](http://images.betterworldbooks.com/055/Snow-Crash-9780553562613.jpg)
+
+*Snow Crash* is a sci-fi classic. It's got alternate reality, samurai
+swords, Mafia-controlled pizza delivery, privately-owned police,
+Sumerian myth, linguistics, and all kinds of other stuff.
+
+There were some cool ideas in there and things like the Metaverse don't
+seem too far off, especially with the [Oculus
+Rift](http://www.oculusvr.com/) on the horizon.
+
+Movies
+------
+
+### [Mulholland Drive](http://en.wikipedia.org/wiki/Mulholland_Drive_(film))
+
+![Mulholland
+Drive](http://upload.wikimedia.org/wikipedia/en/0/0f/Mulholland.png)
+
+*Mulholland Drive* is a film that won't make sense the first time you
+watch it. It wasn't until I read [HULK VS. THE GENIUS OF MULHOLLAND
+DRIVE](http://badassdigest.com/2012/03/04/film-crit-hulk-smash-hulk-vs-the-genius-of-mulholland-drive/)
+that I understood what had actually happened in the film. Watch the film
+and then read that article --- I haven't seen anything else that comes
+close to this.
+
+### [The Edukators](http://www.imdb.com/title/tt0408777/)
+
+![The
+Edukators](http://upload.wikimedia.org/wikipedia/en/7/7a/Fetten_jahre_sind_vorbei.jpg)
+
+A great movie about three young Germans that break into wealthy
+Berliners' homes, rearrange the furniture, and leave notes like *Die
+fetten jahre sind vorbei* (the years of gluttony are over).
+
+> Back when the staff picked interesting, under-seeded films for staff
+> recommendations, we got this gem. I continue to come back to this film
+> many times. It is fantastic on all fronts and imperfect in just the
+> right ways. --- *Sergey @ PTP*
+
+Albums
+------
+
+This year I listened to a ton of electronic music.
+
+### [Bluetech --- Sines and Singularities](http://www.last.fm/music/Bluetech/Sines+and+Singularities)
+
+![Sines and
+Singularities](http://www.aleph-zero.info/userfiles/cd/Z4_400.jpg)
+
+This album is an outstanding example of the genre known as [psychedelic
+chillout](http://www.last.fm/tag/psychill/wiki).
+
+### [Vibrasphere --- Exploring the Tributaries](http://www.last.fm/music/Vibrasphere/Exploring+The+Tributaries)
+
+![Exploring the
+Tributaries](http://pic70.picturetrail.com/VOL1830/8012224/15044022/257997215.jpg)
+
+I listened to a lot of psytrance this year, and this album stands out as
+my favorite.
+
+### [Ashtech --- Walkin' Target](http://www.last.fm/music/Ashtech/Walkin%27+Target)
+
+![Walkin' Target](http://f0.bcbits.com/z/35/86/358607174-1.jpg)
+
+A great dub album by Ashtech.
+
+### [Wendy Carlos --- Switched-On Bach](http://www.last.fm/music/Wendy+Carlos/Switched-On+Bach)
+
+![Switched-On
+Bach](http://upload.wikimedia.org/wikipedia/en/9/98/Switched_On_Bach.jpg)
+
+You can't go wrong when you combine two of the greatest things in music:
+J.S. Bach and the Moog synthesizer.
+
+Websites
+--------
+
+### [Craftscape](http://codeflow.org/webgl/craftscape/)
+
+The coolest WebGL demo I've seen so far: a shader-based terrain
+sculptor/simulator/renderer.
+
+### [Kaggle](http://www.kaggle.com/)
+
+A site with lots of machine-learning competitions.
+
+### [Stripe CTF](https://stripe.com/blog/capture-the-flag-20)
+
+Stripe CTF was one of the most fun programming competitions I've
+participated in. There were 8 levels in total, each consisting of a
+different web app that you had to exploit in order to proceed. I got a
+sweet free t-shirt for being one of the first to finish.
+
+### [GLSL Sandbox](http://glsl.heroku.com/)
+
+A WebGL-based shader programming sandbox. This is like [Studio
+Sketchpad](http://sketchpad.cc/) on steroids. A really fun way to render
+Mandelbrot sets and other fractals on the GPU in realtime.
+
+### [Trello](https://trello.com/)
+
+I started using Trello in January. It's a great organizational tool for
+projects.
+
+### [Pinboard](http://pinboard.in/)
+
+After hearing a lot about it, I finally decided to lay down \$9 for a
+Pinboard account. I use it to organize all of my bookmarks and also to
+maintain a reading list. Pinboard has a great API that I've used to
+[read articles on my Kindle](http://grimoire.in/) and also to archive
+every link I consider important.
+
+### [Web Audio API Specification](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
+
+Usually I'm not a big fan of reading long API specifications, but the
+Web Audio API's specification is worth the read. Building synthesizers
+inside of a web browser is just unbelievably fun.

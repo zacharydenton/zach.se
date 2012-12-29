@@ -207,6 +207,20 @@ pre {
     border: #fff 0.5em solid;
   }
 
+  .figure {
+      text-align: center;
+      margin-bottom: 16px;
+  }
+
+  blockquote {
+      border-left: 5px solid #dadada;
+
+      p {
+        font-size: inherit;
+        line-height: inherit;
+    }
+  }
+
   .caption {
     display: none;
   }
