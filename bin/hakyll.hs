@@ -148,7 +148,7 @@ stripIndexLink = changeField "url" dropFileName
 
 config :: HakyllConfiguration
 config = defaultHakyllConfiguration {
-        deployCommand = "rsync -av _site/ _deploy/ && git add -A && git commit -m 'update site' && git push origin master -f",
+        deployCommand = "rsync -av _site/ _deploy/ && cd _deploy && git add -A && git commit -m 'update site' && git push origin master -f",
         ignoreFile = ignoreFile'
     }
     where
