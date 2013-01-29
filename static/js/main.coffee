@@ -46,16 +46,21 @@ class GitHub
         error: (err) ->
           @target.addClass("error").text("GitHub's busted")
         success: (data) =>
-          @render data.data.slice(0, @count)
+          @render data.data
 
   repoUrl: (event) ->
     "<a href='https://github.com/#{event.repo.name}'>#{event.repo.name.replace("#{@username}/", "")}</a>"
 
   issueUrl: (event) ->
-    "<a href='#{event.payload.issue.html_url}'>issue ##{event.payload.issue.number}</a> (#{event.payload.issue.title})"
+    "<a title='#{_.escape event.payload.issue.title}' href='#{event.payload.issue.html_url}'>issue ##{event.payload.issue.number}</a>"
 
   commitUrl: (event) ->
-    ("<a href='https://github.com/#{event.repo.name}/commit/#{commit.sha}'>#{commit.message}</a>" for commit in event.payload.commits).join ", "
+    num_commits = event.payload.commits.length
+    if num_commits == 1
+      commit = event.payload.commits[0]
+      "<a href='https://github.com/#{event.repo.name}/commit/#{commit.sha}' title='#{_.escape commit.message}'>1 commit</a>"
+    else
+      "<a href='https://github.com/#{event.repo.name}/commits?author=#{@username}'>#{num_commits} commits</a>"
 
   renderEvent: (event) ->
     content = ""
@@ -64,14 +69,16 @@ class GitHub
         content = "Starred #{@repoUrl event}."
       when "IssuesEvent"
         if event.payload.action == "closed"
-          content = "Closed #{@issueUrl event} on #{@repoUrl event}."
+          content = "Closed #{@repoUrl event} #{@issueUrl event}."
       when "PushEvent"
-        content = "Updated #{@repoUrl event}: #{@commitUrl event}"
+        content = "Pushed #{@commitUrl event} to #{@repoUrl event}."
       when "FollowEvent"
         content = "Followed <a href='#{event.payload.target.html_url}'>#{event.payload.target.login}</a>."
+      when "IssueCommentEvent"
+        content = "Commented on #{@repoUrl event} #{@issueUrl event}."
       when "CreateEvent"
         if event.payload.description
-          content = "Created #{@repoUrl event} &mdash; #{event.payload.description}."
+          content = "Created #{@repoUrl event} &mdash; #{_.escape event.payload.description}."
         else
           content = "Created #{@repoUrl event}."
 
@@ -81,7 +88,11 @@ class GitHub
       ""
 
   render: (events) ->
-    @target.html (@renderEvent event for event in events).join('')
+    contents = []
+    for event in events
+      content = @renderEvent event
+      contents.push content if content
+    @target.html contents.slice(0, @count).join('')
 
 class GooglePlus
   constructor: (selector, userId, count) ->
@@ -169,7 +180,7 @@ class Lastfm
           @render (album for album in data.topalbums.album when not album.image[3]['#text'].match(/noimage/)?).slice(0, @count)
 
   render: (albums) ->
-    @target.html ("<a href='#{album.url}'><img title='#{album.artist.name} &mdash; #{album.name}' src='#{resizeImage {url: album.image[3]['#text'], resize_w: 192}}' /></a><hr class='short'>" for album in albums).join('')
+    @target.html ("<a href='#{album.url}'><img title='#{_.escape album.artist.name} &mdash; #{_.escape album.name}' src='#{resizeImage {url: album.image[3]['#text'], resize_w: 192}}' /></a><hr class='short'>" for album in albums).join('')
     
 prettyDate = (time) ->
   if navigator.appName == 'Microsoft Internet Explorer'
