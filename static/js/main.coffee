@@ -220,7 +220,11 @@ prettyDate = (time) ->
 
 resizeImage = (options) ->
   # need url, resize_w and/or resize_h
-  "http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&#{$.param options}"
+  params ?= {}
+  if params.url.indexOf '.gif' isnt -1
+    params.url
+  else
+    "http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&#{$.param options}"
 
 $ ->
   twitter = new Twitter("#tweets", "zacharydenton", 8)
