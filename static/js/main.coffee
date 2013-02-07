@@ -220,9 +220,9 @@ prettyDate = (time) ->
 
 resizeImage = (options) ->
   # need url, resize_w and/or resize_h
-  params ?= {}
-  if params.url.indexOf '.gif' isnt -1
-    params.url
+  options ?= {}
+  if options.url.indexOf '.gif' isnt -1
+    options.url
   else
     "http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&#{$.param options}"
 
