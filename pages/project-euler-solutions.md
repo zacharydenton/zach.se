@@ -1,6 +1,6 @@
 ---
 title: Project Euler Solutions
-excerpt: Solutions to 75 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
+excerpt: Solutions to 77 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
 ---
 
 Welcome to my solutions for [Project Euler](http://projecteuler.net/).
@@ -330,7 +330,7 @@ Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
 
 ## [Project Euler Problem 40 Solution](40/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Ruby</span> 
 
 Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
@@ -432,6 +432,14 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 ------
 
+## [Project Euler Problem 54 Solution](54/)
+
+<span class="label label-info">Python</span> 
+
+Updated: <time datetime="2013-02-15" data-updated="true">February 15, 2013</time>
+
+------
+
 ## [Project Euler Problem 55 Solution](55/)
 
 <span class="label label-info">Python</span> 
@@ -461,6 +469,14 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 <span class="label label-info">Python</span> 
 
 Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+
+------
+
+## [Project Euler Problem 59 Solution](59/)
+
+<span class="label label-info">Python</span> 
+
+Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 ------
 
