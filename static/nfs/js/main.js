@@ -256,19 +256,25 @@
     createExplosion = function(position) {
       var explosion, i, material, particles, total, v, _i;
 
+      if (game.explosions.length > 20) {
+        return;
+      }
       particles = new THREE.Geometry();
       material = new THREE.ParticleBasicMaterial({
-        size: 2
+        blending: THREE.AdditiveBlending
       });
       material.color.setHSL(Math.random(), 0.9, 0.7);
       total = 5000;
       for (i = _i = 0; 0 <= total ? _i < total : _i > total; i = 0 <= total ? ++_i : --_i) {
         v = new THREE.Vector3(0.5 - Math.random(), 0.5 - Math.random(), 0.5 - Math.random());
-        v.multiplyScalar(200 * Math.random() / v.length());
+        v.multiplyScalar(50 * (0.9 + 0.1 * Math.random()) / v.length());
         particles.vertices.push(v);
       }
       explosion = new THREE.ParticleSystem(particles, material);
       explosion.position = position;
+      explosion.rotation.x = Math.random();
+      explosion.rotation.y = Math.random();
+      explosion.rotation.z = Math.random();
       game.scene.add(explosion);
       return game.explosions.push(explosion);
     };
@@ -801,8 +807,8 @@
       for (i = _k = 0, _len2 = _ref2.length; _k < _len2; i = ++_k) {
         explosion = _ref2[i];
         s = explosion.scale;
-        explosion.scale.set(1.2 * s.x, 1.2 * s.y, 1.2 * s.z);
-        if (explosion.scale.length() > 1000) {
+        explosion.scale.set(1.08 * s.x, 1.02 * s.y, 1.08 * s.z);
+        if (explosion.scale.length() > 100) {
           this.scene.remove(explosion);
           this.explosions[i] = null;
         }

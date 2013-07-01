@@ -6,7 +6,7 @@ class Twitter
     @target = $(selector)
     if @target?
       $.ajax
-        url: "http://api.twitter.com/1/statuses/user_timeline/#{@username}.json?trim_user=true&count=#{@count+10}&include_entities=1&exclude_replies=true&callback=?"
+        url: "http://twitter-zacharydenton.herokuapp.com/?trim_user=true&count=#{@count+10}&include_entities=1&exclude_replies=true&callback=?"
         dataType: "jsonp"
         error: (err) ->
           @target.addClass("error").text("Twitter's busted")
