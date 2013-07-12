@@ -159,8 +159,9 @@ class GooglePlus
           content += ("<a href='#{attachment.fullImage.url}'><img src='#{resizeImage {url: attachment.fullImage.url, resize_w: 384}}' /></a>" for attachment in attachments).join('')
           if activity.object.content
             content += "<p>#{activity.object.content}</p>"
-
-
+      content += "<hr>"
+    else if activity.verb == "post"
+      content += "<p>#{activity.object.content}</p>"
       content += "<hr>"
     content
 
