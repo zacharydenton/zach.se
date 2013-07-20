@@ -1,4 +1,4 @@
---- 
+---
 title: Geodesic Distance Between Points in GeoDjango
 excerpt: Various ways to perform geodesic distance calculations in Django.
 ---
@@ -18,7 +18,7 @@ opposed to a projected coordinate system, GeoDjango returns the
 Cartesian distance between points as a float value in degrees. This is
 not useful for presenting to users, since we deal with kilometers and
 miles in everyday life. The distance we want is known as the [geodesic
-distance](http://en.wikipedia.org/wiki/Geodesy "Geodesy").
+distance][].
 
 Geodesic Distance
 -----------------
@@ -28,12 +28,10 @@ to travel between them on the Earth's surface. Thus, it is the 'real'
 distance between two points, as opposed to the theoretical distance
 returned by GeoDjango.
 
-The formulae used to calculate this distance are [quite
-complex](http://en.wikipedia.org/wiki/Vincenty%27s_formulae "Vincenty's formulae").
+The formulae used to calculate this distance are [quite complex][].
 Luckily, they have been implemented for us in a Python module called
-[geopy](http://code.google.com/p/geopy/wiki/GettingStarted#Calculating_distances "Calculating Distances with geopy").
-The specific method we will be using is known as Vincenty's method. It's
-accurate to within 0.5mm!
+[geopy][]. The specific method we will be using is known as Vincenty's
+method. It's accurate to within 0.5mm!
 
 The specific function is `geopy.distance.distance`. Here's a simple
 example demonstrating its use:
@@ -144,19 +142,27 @@ Additional Notes
 ### Projected Coordinate Systems
 
 If your data is concentrated in a small area, then you could use a
-[projected coordinate
-system](http://docs.djangoproject.com/en/dev/ref/contrib/gis/db-api/#distance-lookups "GeoDjango Distance Lookups")
-(such as SRID 32140, for South Texas) to solve the problem.
+[projected coordinate system][] (such as SRID 32140, for South Texas) to
+solve the problem.
 
 ### PostGIS Geography Field Type
 
 Alternatively, you could try storing your data using the [PostGIS
-Geography field
-type](http://postgis.refractions.net/docs/ch04.html#PostGIS_Geography "PostGIS Geography Field Type"),
-which performs geodesic calculations instead of Cartesian calculations.
-The downside with this approach is that it prevents you from using many
-of the GeoDjango functions. For instance, none of the Spatial Aggregate
-functions worked, in my testing. Since this is a relatively new PostGIS
-feature, I expect it to become more usable in the future. Once it does,
-I recommend using that instead, as it makes more sense to have these
-kinds of calculations occur seamlessly at the database level.
+Geography field type][], which performs geodesic calculations instead of
+Cartesian calculations. The downside with this approach is that it
+prevents you from using many of the GeoDjango functions. For instance,
+none of the Spatial Aggregate functions worked, in my testing. Since
+this is a relatively new PostGIS feature, I expect it to become more
+usable in the future. Once it does, I recommend using that instead, as
+it makes more sense to have these kinds of calculations occur seamlessly
+at the database level.
+
+  [geodesic distance]: http://en.wikipedia.org/wiki/Geodesy "Geodesy"
+  [quite complex]: http://en.wikipedia.org/wiki/Vincenty%27s_formulae
+    "Vincenty's formulae"
+  [geopy]: http://code.google.com/p/geopy/wiki/GettingStarted#Calculating_distances
+    "Calculating Distances with geopy"
+  [projected coordinate system]: http://docs.djangoproject.com/en/dev/ref/contrib/gis/db-api/#distance-lookups
+    "GeoDjango Distance Lookups"
+  [PostGIS Geography field type]: http://postgis.refractions.net/docs/ch04.html#PostGIS_Geography
+    "PostGIS Geography Field Type"

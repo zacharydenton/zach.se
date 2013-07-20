@@ -1,19 +1,19 @@
---- 
+---
 title: How To Display BuddyPress Album Images Anywhere
 excerpt: How to use the BuddyPress Album+ loop to display images anywhere on your WordPress site.
 ---
 
 Recently, I created a new landing page for [Ultralight Backpacking
-Network](http://ultralightbackpacking.net "Ultralight Backpacking Network").
-It features a grid of images posted by the site's users. Ultralight
-Backpacking Network is using BuddyPress Album+ to manage users' photo
-albums, so I needed to figure out a way to display BuddyPress Album+
-images anywhere on the site. It turns out that BuddyPress Album+ makes
-this a relatively easy task. You retrieve the images using a loop, a
-process familiar to anyone who has modified or created a WordPress
-theme. Here's an example of a BuddyPress Album+ loop:
+Network][]. It features a grid of images posted by the site's users.
+Ultralight Backpacking Network is using BuddyPress Album+ to manage
+users' photo albums, so I needed to figure out a way to display
+BuddyPress Album+ images anywhere on the site. It turns out that
+BuddyPress Album+ makes this a relatively easy task. You retrieve the
+images using a loop, a process familiar to anyone who has modified or
+created a WordPress theme. Here's an example of a BuddyPress Album+
+loop:
 
-```html
+~~~~ {.html}
 <div id="photos">
 <?php bp_album_query_pictures('per_page=5'); ?>
 <?php if ( bp_album_has_pictures() ) : ?>
@@ -28,7 +28,7 @@ theme. Here's an example of a BuddyPress Album+ loop:
         </ul> 
 <?php endif; ?>
 </div>
-```
+~~~~
 
 Notice how similar it is to the WordPress loop. An important thing to
 remember is that you must first call the function
@@ -45,8 +45,8 @@ parameters:
     of the following:
     -   *public* - photos visible to everyone
     -   *members* - photos visible to members
-    -   *friends*- photos visible to friends of the currentÂ user
-    -   *private*- photos visible to the currentÂ user
+    -   *friends*- photos visible to friends of the current user
+    -   *private*- photos visible to the current user
     -   *admin*- photos visible to the site administrator
 
 -   **adjacent**- Used to select a photo immediately preceding or
@@ -90,12 +90,14 @@ you can use:
 
 There are several other template tags you can use -- too many to list
 here, in fact. For more information, check out
-`includes/bp-album-templatetags.php` in the `bp-album` folder. If you want
-to display information about the album author, you are going to need a
-few additional template tags that don't come with BuddyPress Album+ by
-default. See [this
-post](/programming/buddypress-album-author-template-tags/ "BuddyPress Album Author Template Tags")
-for more details. That's enough information to get you up and running
-with custom BuddyPress Album+ themes. 
+`includes/bp-album-templatetags.php` in the `bp-album` folder. If you
+want to display information about the album author, you are going to
+need a few additional template tags that don't come with BuddyPress
+Album+ by default. See [this post][] for more details. That's enough
+information to get you up and running with custom BuddyPress Album+
+themes.
 
-
+  [Ultralight Backpacking Network]: http://ultralightbackpacking.net
+    "Ultralight Backpacking Network"
+  [this post]: /programming/buddypress-album-author-template-tags/
+    "BuddyPress Album Author Template Tags"

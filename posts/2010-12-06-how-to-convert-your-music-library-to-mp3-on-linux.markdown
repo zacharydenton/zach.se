@@ -1,16 +1,15 @@
---- 
+---
 title: How to Convert Your Music Library to MP3 on Linux
 excerpt: A shell script which converts a music collection to MP3.
 ---
 
-I have a fairly large music collection consisting of both
-[FLAC](http://en.wikipedia.org/wiki/Free_Lossless_Audio_Codec "FLAC")
-and MP3 files. This collection is far too large to fit on any of my
-mobile devices without first being compressed. However, due to its size,
-it would be tedious to manually add each album to a typical GUI
-conversion tool. Therefore, I wrote a script which converts a music
-collection consisting of both FLAC and MP3 to MP3 with a single command.
-Files already in MP3 format are not transcoded; files in FLAC format are
+I have a fairly large music collection consisting of both [FLAC][] and
+MP3 files. This collection is far too large to fit on any of my mobile
+devices without first being compressed. However, due to its size, it
+would be tedious to manually add each album to a typical GUI conversion
+tool. Therefore, I wrote a script which converts a music collection
+consisting of both FLAC and MP3 to MP3 with a single command. Files
+already in MP3 format are not transcoded; files in FLAC format are
 converted using the settings of your choice (default: VBR V0).
 
 To use the script, save it as compressor.sh and invoke it like this:
@@ -25,7 +24,7 @@ placed.
 
 Without further ado, here is the script:
 
-```bash
+~~~~ {.bash}
 #!/usr/bin/env bash
 # converts all .flac files to .mp3 and copies them to the
 # OUT directory; copies all .mp3 files to the OUT directory.
@@ -95,8 +94,6 @@ flac -c -dF --silent "$flac" | lame $LAMEOPTS \
 - "$OF"
 fi
 done
-```
+~~~~
 
-
-
-
+  [FLAC]: http://en.wikipedia.org/wiki/Free_Lossless_Audio_Codec "FLAC"

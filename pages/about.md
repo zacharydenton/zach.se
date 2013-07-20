@@ -1,8 +1,7 @@
 ---
 title: About
+excerpt: About Zach Denton.
 ---
-
-![Zach Denton](/img/zach_denton.jpg)
 
 Currently studying computer science and philosophy at Dartmouth. I deal
 in information.

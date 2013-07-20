@@ -45,6 +45,7 @@ post_template = Template('''\
 date: {{ problem.last_modified }}
 title: Project Euler Problem {{ problem.number }} Solution
 excerpt: {{ problem.excerpt }}
+math: true
 ---
 
 {% if problem.question or problem.answer %}

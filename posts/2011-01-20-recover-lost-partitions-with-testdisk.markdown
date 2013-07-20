@@ -1,4 +1,4 @@
---- 
+---
 title: Recover Lost Partitions with TestDisk
 excerpt: How to recover data from broken hard drives with a program called TestDisk.
 ---
@@ -7,9 +7,7 @@ I was recently messing around with the `dd` program to write ISO images
 to USB drives, instead of wasting DVDs or CDs. The command to do this is
 as follows:
 
-```
-# dd if=archlinux-2010.05-netinstall-x86_64.iso of=/dev/sdX
-```
+    # dd if=archlinux-2010.05-netinstall-x86_64.iso of=/dev/sdX
 
 Where `sdX` is the device name of the disk you wish to write the image
 to.
@@ -31,10 +29,9 @@ because the MBR acts like a map telling the computer where data is
 located on the drive. Without that map, the drive is useless.
 
 Thankfully, one Christophe Grenier has written a program called
-[TestDisk](http://www.cgsecurity.org/wiki/TestDisk) which
-scans the raw data of the hard drive and searches for lost partitions. I
-was able to recover the lost partitions on my drive using this fantastic
-tool.
+[TestDisk][] which scans the raw data of the hard drive and searches for
+lost partitions. I was able to recover the lost partitions on my drive
+using this fantastic tool.
 
 It uses a few different methods to recover the lost partitions. First,
 it quickly scans through the entire hard drive, looking for lost
@@ -47,7 +44,7 @@ first step performed, as it takes several hours to scan the entire drive
 twice whereas it presumably takes less than a second to inspect the
 backup MBR.
 
-Check out
-this [step-by-step
-guide](http://www.cgsecurity.org/wiki/TestDisk_Step_By_Step) detailing
-its use.
+Check out this [step-by-step guide][] detailing its use.
+
+  [TestDisk]: http://www.cgsecurity.org/wiki/TestDisk
+  [step-by-step guide]: http://www.cgsecurity.org/wiki/TestDisk_Step_By_Step

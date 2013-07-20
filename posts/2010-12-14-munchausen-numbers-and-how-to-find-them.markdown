@@ -1,12 +1,12 @@
---- 
+---
 title: Munchausen Numbers and How to Find Them
 excerpt: An introduction to Munchausen numbers and how to find them with various programming languages.
 ---
 
 There are those who would have you believe that [every number is
-interesting](http://en.wikipedia.org/wiki/Interesting_number_paradox).
-However, there are interesting numbers and then there are *interesting*
-numbers. Today I'm going to talk about numbers in the latter category.
+interesting][]. However, there are interesting numbers and then there
+are *interesting* numbers. Today I'm going to talk about numbers in the
+latter category.
 
 Munchausen numbers are numbers with the property that the sum of their
 digits raised to themselves equals the number itself. I think this is
@@ -33,9 +33,7 @@ ways to do this.
 Ruby was the first "real" programming language I learned. Before Ruby, I
 was writing simple programs on my TI-89, but that doesn't really count.
 If you're wondering, I first learned how to program by reading the
-excellent [*Learn to
-Program*](http://pine.fm/LearnToProgram/ "Learn to Program"), by Chris
-Pine.
+excellent [*Learn to Program*][], by Chris Pine.
 
 In Ruby, the easiest way to get the digits of a number is simply to
 convert the number into a string. Once that is established, one simply
@@ -113,8 +111,7 @@ existing Java code whilst being written in a functional style.
 Functional programming is an intriguing concept. It seems more
 theoretical than the imperative style I am used to, but perhaps that is
 because I am learning the language by reading [*Structure and
-Interpretation of Computer
-Programs*](http://mitpress.mit.edu/sicp/full-text/book/book.html "Structure and Interpretation of Computer Programs").
+Interpretation of Computer Programs*][].
 
 One thing about Clojure that seems strange to me is the fact that it
 lacks a standard library. This means that you have to define your own
@@ -179,3 +176,9 @@ for i in range(5000):
     if sum(digit ** digit for digit in digits) == i:
         print(i, "(munchausen)")
 ~~~~
+
+  [every number is interesting]: http://en.wikipedia.org/wiki/Interesting_number_paradox
+  [*Learn to Program*]: http://pine.fm/LearnToProgram/
+    "Learn to Program"
+  [*Structure and Interpretation of Computer Programs*]: http://mitpress.mit.edu/sicp/full-text/book/book.html
+    "Structure and Interpretation of Computer Programs"

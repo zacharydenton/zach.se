@@ -18,25 +18,25 @@ In fact, [this entire website is open source](http://github.com/zacharydenton/za
 
 ## [Project Euler Problem 1 Solution](1/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
 ## [Project Euler Problem 2 Solution](2/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
 ## [Project Euler Problem 3 Solution](3/)
 
-<span class="label label-info">Go</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-11" data-updated="true">April 11, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -44,7 +44,7 @@ Updated: <time datetime="2012-04-11" data-updated="true">April 11, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -52,7 +52,7 @@ Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -60,7 +60,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -68,7 +68,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -76,7 +76,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-03-09" data-updated="true">March 09, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -84,7 +84,7 @@ Updated: <time datetime="2011-03-09" data-updated="true">March 09, 2011</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -92,7 +92,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -100,7 +100,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -108,7 +108,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -116,7 +116,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -124,7 +124,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -132,7 +132,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -140,7 +140,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -148,7 +148,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-03-08" data-updated="true">March 08, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -156,7 +156,7 @@ Updated: <time datetime="2012-03-08" data-updated="true">March 08, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -164,7 +164,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -172,7 +172,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -180,7 +180,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -188,7 +188,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -196,7 +196,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -204,7 +204,7 @@ Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -212,7 +212,7 @@ Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -220,7 +220,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -228,7 +228,7 @@ Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -236,7 +236,7 @@ Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -244,7 +244,7 @@ Updated: <time datetime="2011-08-04" data-updated="true">August 04, 2011</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -252,7 +252,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -260,7 +260,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -268,7 +268,7 @@ Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-05" data-updated="true">August 05, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -276,15 +276,15 @@ Updated: <time datetime="2011-08-05" data-updated="true">August 05, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
 ## [Project Euler Problem 34 Solution](34/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -292,7 +292,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -300,7 +300,7 @@ Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -308,7 +308,7 @@ Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -316,7 +316,7 @@ Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -324,15 +324,15 @@ Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-06" data-updated="true">August 06, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
 ## [Project Euler Problem 40 Solution](40/)
 
-<span class="label label-info">Ruby</span> 
+<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -340,7 +340,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -348,7 +348,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -356,7 +356,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -364,7 +364,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -372,7 +372,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -380,7 +380,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -388,7 +388,7 @@ Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -396,7 +396,7 @@ Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -404,7 +404,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -412,7 +412,7 @@ Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -420,7 +420,7 @@ Updated: <time datetime="2011-08-08" data-updated="true">August 08, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -428,7 +428,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -436,7 +436,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2013-02-15" data-updated="true">February 15, 2013</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -444,7 +444,7 @@ Updated: <time datetime="2013-02-15" data-updated="true">February 15, 2013</time
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -452,7 +452,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -460,7 +460,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -468,7 +468,7 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -476,7 +476,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -484,7 +484,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-09" data-updated="true">April 09, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -492,7 +492,7 @@ Updated: <time datetime="2011-04-09" data-updated="true">April 09, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -500,7 +500,7 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -508,7 +508,7 @@ Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -516,7 +516,7 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -524,7 +524,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-12" data-updated="true">April 12, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -532,7 +532,7 @@ Updated: <time datetime="2012-04-12" data-updated="true">April 12, 2012</time>
 
 <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -540,7 +540,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -548,7 +548,7 @@ Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -556,7 +556,7 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -564,7 +564,7 @@ Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -572,7 +572,7 @@ Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -580,7 +580,7 @@ Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -588,7 +588,7 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-04-12" data-updated="true">April 12, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -596,7 +596,7 @@ Updated: <time datetime="2012-04-12" data-updated="true">April 12, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -604,7 +604,7 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-06-01" data-updated="true">June 01, 2011</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -612,7 +612,7 @@ Updated: <time datetime="2011-06-01" data-updated="true">June 01, 2011</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -620,7 +620,7 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
 
@@ -628,6 +628,6 @@ Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
 
 <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-05-01" data-updated="true">May 01, 2012</time>
+Updated: <time datetime="2013-07-20" data-updated="true">July 20, 2013</time>
 
 ------
