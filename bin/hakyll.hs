@@ -29,7 +29,7 @@ main = hakyllWith config $ do
             >>= withItemBody 
                 (unixFilter "lessc" ["-","--include-path=assets/less","--yui-compress","-O2"])
 
-    match "**.coffee" $ do
+    match "assets/**.coffee" $ do
         route $ setRoot `composeRoutes` setExtension "js"
         compile $ getResourceString
             >>= withItemBody
