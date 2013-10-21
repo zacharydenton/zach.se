@@ -1,3 +1,6 @@
 [submodule "_deploy"]
 	path = _deploy
 	url = git@github.com:zacharydenton/zacharydenton.github.com.git
+[submodule "static/city"]
+	path = static/city
+	url = git@github.com:zacharydenton/city.git
