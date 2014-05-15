@@ -1,6 +1,6 @@
 ---
 title: Project Euler Solutions
-excerpt: Solutions to 77 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
+excerpt: Solutions to 79 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
 ---
 
 Welcome to my solutions for [Project Euler](http://projecteuler.net/).
@@ -74,9 +74,9 @@ Updated: <time datetime="2014-05-14" data-updated="true">May 14, 2014</time>
 
 ## [Project Euler Problem 8 Solution](8/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-03-09" data-updated="true">March 09, 2011</time>
+Updated: <time datetime="2014-05-14" data-updated="true">May 14, 2014</time>
 
 ------
 
@@ -130,7 +130,7 @@ Updated: <time datetime="2011-08-03" data-updated="true">August 03, 2011</time>
 
 ## [Project Euler Problem 15 Solution](15/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
 Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
 
@@ -432,6 +432,14 @@ Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
 
 ------
 
+## [Project Euler Problem 53 Solution](53/)
+
+<span class="label label-info">Python</span> 
+
+Updated: <time datetime="2011-04-07" data-updated="true">April 07, 2011</time>
+
+------
+
 ## [Project Euler Problem 54 Solution](54/)
 
 <span class="label label-info">Python</span> 
@@ -605,6 +613,14 @@ Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
 <span class="label label-info">Python</span> 
 
 Updated: <time datetime="2011-06-01" data-updated="true">June 01, 2011</time>
+
+------
+
+## [Project Euler Problem 97 Solution](97/)
+
+<span class="label label-info">Python</span> 
+
+Updated: <time datetime="2011-04-19" data-updated="true">April 19, 2011</time>
 
 ------
 
