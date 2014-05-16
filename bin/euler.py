@@ -37,7 +37,11 @@ interpreters = {
     '.c': None,
     '.scm': 'mit-scheme-native --quiet <',
     '.go': 'go run',
-    '.hs': 'runhaskell',
+}
+
+compilers = {
+    '.c': 'gcc -o a.out',
+    '.hs': 'ghc -O2 -outputdir /tmp -o a.out',
 }
 
 post_template = Template('''\
@@ -197,7 +201,8 @@ class Solution(object):
     def __init__(self, path):
         basename, filetype = os.path.splitext(path)
         self.language = languages[filetype]
-        self.interpreter = interpreters[filetype]
+        self.interpreter = interpreters.get(filetype)
+        self.compiler = compilers.get(filetype)
         self.lexer = lexers[filetype]
         self.path = path
         self.basename = os.path.basename(self.path)
@@ -210,13 +215,9 @@ class Solution(object):
         self.execution_time = ''
 
     def __unicode__(self):
-        #output = '{%% codeblock %s %s download %%}\n' % (self.basename, self.raw_link)
-        #output = '{%% highlight %s %%}\n' % self.interpreter
         output = '```%s\n' % (self.lexer)
         output += self.content 
         output += '```\n'
-        #output += '{% endhighlight %}'
-        #output += '{% endcodeblock %}'
         return output 
 
     def __str__(self):
@@ -227,13 +228,25 @@ class Solution(object):
         try:
             output = json.loads(open(os.path.join(cache_dir, self.sha1)).read())
         except:
-            if self.interpreter:
+            if self.compiler:
+                subprocess.check_call("{} {}".format(self.compiler, self.path), shell=True)
+                output = subprocess.Popen('bash -c "time ./a.out"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+                os.unlink("a.out")
+            elif self.interpreter:
                 output = subprocess.Popen('bash -c "time %s %s"' % (self.interpreter, self.path), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-                with open(os.path.join(cache_dir, self.sha1), 'w') as cache:
-                    cache.write(json.dumps(output))
+            with open(os.path.join(cache_dir, self.sha1), 'w') as cache:
+                cache.write(json.dumps(output))
         finally:
             if output:
-                self.execution_time = '''\
+                if self.compiler:
+                    self.execution_time = '''\
+```
+$ time ./%s
+%s
+```
+''' % (self.basename.rsplit('.')[0], output[1].strip())
+                else:
+                    self.execution_time = '''\
 ```
 $ time %s %s
 %s
@@ -242,7 +255,7 @@ $ time %s %s
 
                 if output[0].strip() == self.answer:
                     return True
-            print "failed: %s %s" % (self.interpreter, self.path)
+            print("failed: %s %s" % (self.interpreter, self.path))
             if os.path.exists(os.path.join(cache_dir, self.sha1)):
                 os.remove(os.path.join(cache_dir, self.sha1))
             return False
