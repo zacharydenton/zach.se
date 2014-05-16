@@ -31,16 +31,15 @@ lexers = {
 }
 
 interpreters = {
-    '.py': 'pypy',
+    '.py': 'python2',
     '.rb': 'ruby',
     '.clj': 'clojure',
-    '.c': None,
     '.scm': 'mit-scheme-native --quiet <',
     '.go': 'go run',
 }
 
 compilers = {
-    '.c': 'gcc -o a.out',
+    '.c': 'gcc -Ofast -std=c11 -o a.out',
     '.hs': 'ghc -O2 -outputdir /tmp -o a.out',
 }
 
