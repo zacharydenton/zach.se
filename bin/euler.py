@@ -252,13 +252,26 @@ $ time %s %s
 %s
 ```
 ''' % (self.interpreter, self.basename, output[1].strip())
-
+                self.execution_time = replace_tabs(self.execution_time, 7)
                 if output[0].strip() == self.answer:
                     return True
             print("failed: %s %s" % (self.interpreter, self.path))
             if os.path.exists(os.path.join(cache_dir, self.sha1)):
                 os.remove(os.path.join(cache_dir, self.sha1))
             return False
+
+def replace_tabs(s, ts=4):
+    return '\n'.join(replace_tab(line, ts) for line in s.split('\n'))
+
+def replace_tab(s, ts=4):
+    result = str()
+    for c in s:
+        if c == '\t':
+            while (len(result) % ts != 0):
+                result += ' ';
+        else:
+            result += c    
+    return result
 
 def generate_posts(problems, output_dir):
     '''rebuild all posts.'''
