@@ -226,9 +226,9 @@ Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
 
 ## [Project Euler Problem 27 Solution](27/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 

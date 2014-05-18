@@ -40,7 +40,7 @@ interpreters = {
 
 compilers = {
     '.c': 'gcc -Ofast -std=c11 -o a.out',
-    '.hs': 'ghc -O2 -outputdir /tmp -o a.out',
+    '.hs': 'ghc -O2 -o a.out -outputdir /tmp',
 }
 
 post_template = Template('''\
@@ -239,14 +239,15 @@ class Solution(object):
             if output:
                 if self.compiler:
                     self.execution_time = '''\
+```bash
+$ {compiler} {filename}
+$ time ./{filename}
+{time}
 ```
-$ time ./%s
-%s
-```
-''' % (self.basename.rsplit('.')[0], output[1].strip())
+'''.format(compiler=self.compiler.rsplit(' a.out')[0], filename=self.basename.rsplit('.')[0], time=output[1].strip())
                 else:
                     self.execution_time = '''\
-```
+```bash
 $ time %s %s
 %s
 ```
