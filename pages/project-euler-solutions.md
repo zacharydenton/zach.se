@@ -234,9 +234,9 @@ Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ## [Project Euler Problem 28 Solution](28/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
@@ -266,25 +266,25 @@ Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
 
 ## [Project Euler Problem 32 Solution](32/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 33 Solution](33/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 34 Solution](34/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
@@ -298,81 +298,81 @@ Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
 
 ## [Project Euler Problem 36 Solution](36/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 37 Solution](37/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 38 Solution](38/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 39 Solution](39/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 40 Solution](40/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 41 Solution](41/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 42 Solution](42/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-18" data-updated="true">May 18, 2014</time>
 
 ------
 
 ## [Project Euler Problem 43 Solution](43/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 44 Solution](44/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 45 Solution](45/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
