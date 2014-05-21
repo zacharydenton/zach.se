@@ -1,6 +1,6 @@
 ---
 title: Project Euler Solutions
-excerpt: Solutions to 80 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
+excerpt: Solutions to 83 Project Euler problems in Python, Ruby, Haskell, Clojure, Go, and Scheme.
 ---
 
 Welcome to my solutions for [Project Euler](http://projecteuler.net/).
@@ -378,105 +378,105 @@ Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ## [Project Euler Problem 46 Solution](46/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2011-08-07" data-updated="true">August 07, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 47 Solution](47/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 48 Solution](48/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-05-02" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 49 Solution](49/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 50 Solution](50/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 51 Solution](51/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 52 Solution](52/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 53 Solution](53/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-07" data-updated="true">April 07, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 54 Solution](54/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2013-02-15" data-updated="true">February 15, 2013</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 55 Solution](55/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 56 Solution](56/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 57 Solution](57/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
 ## [Project Euler Problem 58 Solution](58/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
 
 ------
 
@@ -488,19 +488,27 @@ Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
 
 ------
 
+## [Project Euler Problem 60 Solution](60/)
+
+<span class="label label-info">Haskell</span> 
+
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
+
+------
+
 ## [Project Euler Problem 61 Solution](61/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-09" data-updated="true">April 09, 2011</time>
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
 
 ------
 
 ## [Project Euler Problem 62 Solution](62/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-04-18" data-updated="true">April 18, 2011</time>
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
 
 ------
 
@@ -512,11 +520,27 @@ Updated: <time datetime="2012-04-30" data-updated="true">April 30, 2012</time>
 
 ------
 
+## [Project Euler Problem 64 Solution](64/)
+
+<span class="label label-info">Haskell</span> 
+
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
+
+------
+
 ## [Project Euler Problem 65 Solution](65/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2012-01-23" data-updated="true">January 23, 2012</time>
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
+
+------
+
+## [Project Euler Problem 66 Solution](66/)
+
+<span class="label label-info">Haskell</span> 
+
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
 
 ------
 
