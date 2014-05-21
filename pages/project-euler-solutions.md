@@ -546,9 +546,9 @@ Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
 
 ## [Project Euler Problem 67 Solution](67/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2011-10-12" data-updated="true">October 12, 2011</time>
+Updated: <time datetime="2014-05-20" data-updated="true">May 20, 2014</time>
 
 ------
 
