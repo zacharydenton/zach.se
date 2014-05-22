@@ -35,12 +35,12 @@ interpreters = {
     '.rb': 'ruby',
     '.clj': 'clojure',
     '.scm': 'mit-scheme-native --quiet <',
-    '.go': 'go run',
 }
 
 compilers = {
     '.c': 'gcc -Ofast -std=c11 -o a.out',
     '.hs': 'ghc -O2 -o a.out -outputdir /tmp',
+    '.go': 'go build -o a.out',
 }
 
 post_template = Template('''\
@@ -240,11 +240,11 @@ class Solution(object):
                 if self.compiler:
                     self.execution_time = '''\
 ```bash
-$ {compiler} {filename}
+$ {compiler} {filename} {basename}
 $ time ./{filename}
 {time}
 ```
-'''.format(compiler=self.compiler.rsplit(' a.out')[0], filename=self.basename.rsplit('.')[0], time=output[1].strip())
+'''.format(compiler=self.compiler.rsplit(' a.out')[0], basename=self.basename, filename=self.basename.rsplit('.')[0], time=output[1].strip())
                 else:
                     self.execution_time = '''\
 ```bash
