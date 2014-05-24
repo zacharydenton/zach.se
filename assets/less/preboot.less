@@ -22,38 +22,43 @@
 @black-90:                 darken(#fff, 90%);
 
 // Brand colors
-@brand-primary:           #092e68;
+@brand-primary:           #f9f9f6;
 @brand-success:           #5cb85c;
 @brand-warning:           #f0ad4e;
 @brand-danger:            #d9534f;
 @brand-info:              #5bc0de;
 
 // Scaffolding
-@body-background:         #fff;
-@text-color:              @black-90;
+@body-background:         #f9f9f6;
+@text-color:              @black-80;
+@body-width: 1000px;
+@article-width: 700px;
+@banner-height: 350px;
+@banner-height-small: 200px;
 
 // Links
-@link-color:              @brand-primary;
+@link-color:              #092e68;
 @link-color-hover:        lighten(@link-color, 25%);
 
 // Typography
-@font-family-sans-serif:  "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Share Tech", Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-serif;
 
-@font-size-base:          1rem;
-@font-size-medium:        @font-size-base * 1.25;
-@font-size-large:         @font-size-base * 1.618;
-@font-size-larger:        @font-size-base * 2.618;
-@font-size-huge:          @font-size-base * 4.236;
-@font-size-small:         @font-size-base * 0.618;
-@font-size-mini:          @font-size-base * 0.382;
+@size-base:          16px;
+@size-medsmall:      14px;
+@size-medium:        20px;
+@size-large:         24px;
+@size-larger:        36px;
+@size-huge:          54px;
+@size-small:         12px;
+@size-mini:          8px;
 
 @line-height-base:        1.468;
 
-@headings-font-family:    @font-family-serif;
-@headings-font-weight:    600;
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    400;
 
 // Forms
 @input-color-placeholder: lighten(@text-color, 25%);
@@ -63,8 +68,6 @@
 @grid-columns:          12;
 @grid-column-padding:   15px; // Left and right inner padding
 @grid-float-breakpoint: 768px;
-
-@article-width: 42rem;
 
 //
 // Grid system

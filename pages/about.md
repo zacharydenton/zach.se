@@ -5,8 +5,6 @@ excerpt: About Zach Denton.
 
 Currently studying computer science and philosophy at Dartmouth.
 
-I deal in information.
-
 Contact
 -------
 

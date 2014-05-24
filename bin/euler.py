@@ -38,7 +38,7 @@ interpreters = {
 }
 
 compilers = {
-    '.c': 'gcc -Ofast -std=c11 -o a.out',
+    '.c': 'gcc -march=native -Ofast -std=c11 -o a.out',
     '.hs': 'ghc -O2 -o a.out -outputdir /tmp',
     '.go': 'go build -o a.out',
 }
@@ -51,14 +51,10 @@ excerpt: {{ problem.excerpt }}
 math: true
 ---
 
-{% if problem.question or problem.answer %}
-## Overview
-
 {% if problem.question %}
-### Question
+## Question
 
 {{ problem.question }}
-{% endif %}
 {% endif %}
 
 {% if problem.commentary %}
@@ -67,9 +63,8 @@ math: true
 {{ problem.commentary }}
 {% endif %}
 
-## Solutions
 {% for solution in problem.solutions %}
-### {{ solution.language }}
+## {{ solution.language }}
 
 {{ solution }}
 {% if solution.execution_time %}

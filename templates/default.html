@@ -1,24 +1,32 @@
 <!doctype html>
+$if(bodyclass)$
+<html lang="en-us" class="$bodyclass$">
+$else$
 <html lang="en-us">
+$endif$
 	<head>
 		<meta charset="utf-8">
 		<title>$title$ - Zach Denton</title>
 		<meta name="author" content="Zach Denton">
 		<meta name="description" content="$excerpt$">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,600">
-		<link rel="stylesheet" href="/ssp/source-serif-pro.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Share+Tech:400">
 		<link rel="stylesheet" href="/css/main.css">
 		$if(math)$
 		<script type="text/x-mathjax-config">
-		MathJax.Hub.Config({
+			MathJax.Hub.Config({
   			tex2jax: {inlineMath: [['$$','$$'], ['\\(','\\)']]}
   		});
 		</script>
 		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 		$endif$
 	</head>
+	$if(bodyclass)$
+	<body class="$bodyclass$">
+	$else$
 	<body>
+	$endif$
+		<div id="banner"></div>
 		<header role="banner">
 			<h1><a href="/">Zach Denton</a></h1>
 			<nav>
@@ -30,12 +38,12 @@
 				<li><a href="/resume.pdf">Resume</a></li>
 			</ul>
 			</nav>
-			<a href="mailto:z@chdenton.com"><canvas></canvas></a>
 		</header>
 
 		$body$
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
 		<script src="/js/main.js"></script>
 	</body>
 </html>

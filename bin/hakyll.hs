@@ -15,8 +15,7 @@ main = hakyllWith config $ do
         compile copyFileCompiler
 
     -- Tell hakyll to watch the less files
-    match "assets/less/**.less" $ do
-        compile getResourceBody
+    match "assets/less/**.less" $ compile getResourceBody
 
     -- Compile the main less file
     -- We tell hakyll it depends on all the less files,
@@ -35,7 +34,7 @@ main = hakyllWith config $ do
             >>= withItemBody
                 (unixFilter "coffee" ["--stdio", "--compile"])
 
-    match ("pages/**") $ do
+    match "pages/**" $ do
         route   $ setRoot `composeRoutes` cleanURL
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html" defaultContext
@@ -72,6 +71,7 @@ main = hakyllWith config $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
+                    constField "bodyclass" "front"           `mappend`
                     constField "excerpt" "On life, the universe, and everything." `mappend`
                     defaultContext
 
@@ -83,7 +83,7 @@ main = hakyllWith config $ do
     -- Render RSS feed
     create ["rss.xml"] $ do
         route idRoute
-        compile $ do
+        compile $
             loadAll "posts/*"
                 >>= fmap (take 10) . recentFirst
                 >>= renderAtom feedConfiguration feedCtx
@@ -119,7 +119,7 @@ cleanURL :: Routes
 cleanURL = customRoute fileToDirectory
 
 fileToDirectory :: Identifier -> FilePath
-fileToDirectory = (flip combine) "index.html" . dropExtension . toFilePath
+fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 
 config :: Configuration
 config = defaultConfiguration {
