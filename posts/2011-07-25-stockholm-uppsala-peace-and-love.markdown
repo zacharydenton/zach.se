@@ -3,7 +3,7 @@ title: Stockholm, Uppsala, Peace and Love
 excerpt: In Sweden, I visited family and went to Peace and Love, an utterly insane week-long music festival.
 ---
 
-![Bob Dylan at Peace and Love 2011](https://lh3.googleusercontent.com/-6xfgs578vHU/Thg9D19zHcI/AAAAAAAAZY8/pdf1WLoEHpA/s770/IMG_3101.JPG)
+![Bob Dylan at Peace and Love 2011](https://lh3.googleusercontent.com/-6xfgs578vHU/Thg9D19zHcI/AAAAAAAAZY8/pdf1WLoEHpA/s1000/IMG_3101.JPG)
 
 I spent several weeks in Sweden, and I don't remember all of it
 (especially the week at Peace and Love), so this will not be as detailed
@@ -21,7 +21,7 @@ words of a song and the groups would try to complete
 the line. I literally had never heard a single one of the songs she read
 out. Then we danced around the Midsommar pole. 
 
-![Dancing around the Midsommar pole](https://lh3.googleusercontent.com/-N_1dHBiLYzE/Thg411PvyGI/AAAAAAAAY-E/166OZxbp9G8/s770/IMG_3020.JPG)
+![Dancing around the Midsommar pole](https://lh3.googleusercontent.com/-N_1dHBiLYzE/Thg411PvyGI/AAAAAAAAY-E/166OZxbp9G8/s1000/IMG_3020.JPG)
 
 Later we had dinner. It
 was a good time.
@@ -56,12 +56,12 @@ So, having established that the nights were consistently excellent, I'd
 like to talk about some of the music. The first band I saw was Jimmy Eat
 World, a band which I have been listening to for a long time.
 
-![Jimmy Eat World at Peace and Love 2011](https://lh6.googleusercontent.com/-tQPaX2j7zOs/Thg5bN2RLfI/AAAAAAAAZBA/86pvX5HEEIk/s770/IMG_3030.JPG)
+![Jimmy Eat World at Peace and Love 2011](https://lh6.googleusercontent.com/-tQPaX2j7zOs/Thg5bN2RLfI/AAAAAAAAZBA/86pvX5HEEIk/s1000/IMG_3030.JPG)
 
 I wandered into this nightclub-like area where a band called The Amplifetes 
 were playing. 
 
-![The Amplifetes at Peace and Love 2011](https://lh3.googleusercontent.com/-elpRP0L6Uok/Thg57mlwvAI/AAAAAAAAZD0/s0VXKHjzmtc/s770/IMG_3040.JPG)
+![The Amplifetes at Peace and Love 2011](https://lh3.googleusercontent.com/-elpRP0L6Uok/Thg57mlwvAI/AAAAAAAAZD0/s0VXKHjzmtc/s1000/IMG_3040.JPG)
 
 They have
 a brilliant electro-rock sound which was incredible to experience live.
@@ -75,7 +75,7 @@ I've been listening to their first album and it's quite good.
 
 I saw Deadmau5, along with at least 4,000 other dancing, sweaty Swedes.
 
-![Deadmau5 at Peace and Love 2011](https://lh6.googleusercontent.com/-X3ThCQAM7Ic/Thg66i-LyDI/AAAAAAAAZIc/3N57egGTQyk/s770/IMG_3060.JPG)
+![Deadmau5 at Peace and Love 2011](https://lh6.googleusercontent.com/-X3ThCQAM7Ic/Thg66i-LyDI/AAAAAAAAZIc/3N57egGTQyk/s1000/IMG_3060.JPG)
 
 The word that comes to mind to describe that performance is
 'hot'.
@@ -97,7 +97,7 @@ did lose a couple buttons on my favorite shirt in the process, though.
 
 One of the best bands I saw was also the last band I saw: Foreigner. 
 
-![Foreigner at Peace and Love 2011](https://lh3.googleusercontent.com/-9OG-PUcrwMo/Thg9zcART_I/AAAAAAAAZck/T_sjLTf0WbE/s770/IMG_3114.JPG)
+![Foreigner at Peace and Love 2011](https://lh3.googleusercontent.com/-9OG-PUcrwMo/Thg9zcART_I/AAAAAAAAZck/T_sjLTf0WbE/s1000/IMG_3114.JPG)
 
 My
 dad says they were the greatest rock band of 1978. I can definitely see

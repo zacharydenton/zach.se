@@ -6,7 +6,11 @@ $else$
 $endif$
 	<head>
 		<meta charset="utf-8">
+		$if(notitle)$
+		<title>Zach Denton</title>
+		$else$
 		<title>$title$ - Zach Denton</title>
+		$endif$
 		<meta name="author" content="Zach Denton">
 		<meta name="description" content="$excerpt$">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -42,7 +46,7 @@ $endif$
 
 		$body$
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
 		<script src="/js/main.js"></script>
 	</body>

@@ -30,7 +30,7 @@ I checked into the hostel, enjoyed a free breakfast, and set off to
 explore Hollywood. I saw the office of Bernie Grundman, the recording
 engineer behind a number of notable albums. 
 
-![Bernie Grundman mastering studio](https://lh5.googleusercontent.com/-6YaS_q5lG-A/TgN0T9gSa6I/AAAAAAAAXZ4/JvvoHlDvM34/s770/IMG_2522.JPG)
+![Bernie Grundman mastering studio](https://lh5.googleusercontent.com/-6YaS_q5lG-A/TgN0T9gSa6I/AAAAAAAAXZ4/JvvoHlDvM34/s1000/IMG_2522.JPG)
 
 I walked up Hollywood
 Boulevard and down Sunset Boulevard, taking in the sights and sounds as I went.
@@ -47,7 +47,7 @@ deal nevertheless!
 The next morning, I went back into downtown Los Angeles.
 Right in the middle of everything, Red Bull was sponsoring the soapbox derby.
 
-![Red Bull Soapbox Race in Los Angeles](https://lh3.googleusercontent.com/-SmL2yCzGIhw/TgN0YbV6IiI/AAAAAAAAXaA/OJKNVsJyZr8/s770/IMG_2523.JPG)
+![Red Bull Soapbox Race in Los Angeles](https://lh3.googleusercontent.com/-SmL2yCzGIhw/TgN0YbV6IiI/AAAAAAAAXaA/OJKNVsJyZr8/s1000/IMG_2523.JPG)
 
 It was quite a sight. The contestants dressed up in hilarious
 costumes - for example, one team was The Dukes of Hazzard and another
@@ -56,7 +56,7 @@ and raced down the track, which had jumps and a banked turn. One team which had
 neglected to install brakes on the car was going so fast when they hit
 the banked turn that they flew straight off the edge! 
 
-![Soapbox car flying around the banked turn](https://lh5.googleusercontent.com/-k4Df10U4cV0/TgN0gxWa_pI/AAAAAAAAXaU/mwYQhmzo_ew/s770/IMG_2525.JPG)
+![Soapbox car flying around the banked turn](https://lh5.googleusercontent.com/-k4Df10U4cV0/TgN0gxWa_pI/AAAAAAAAXaU/mwYQhmzo_ew/s1000/IMG_2525.JPG)
 
 After that I went back to the hostel to find that they were serving free food and
 drink in the "Tiki Garden". It makes no sense that a $20/night hostel 

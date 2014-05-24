@@ -243,9 +243,9 @@ Library</a>
     "Turn Your $60 Router Into a $600 Router"
   [CMoy amp]: http://tangentsoft.net/audio/cmoy-tutorial/
     "How to Build the CMoy Headphone Amplifier"
-  [8 bags of green coffee from the Sweet Marias sampler.]: https://lh3.googleusercontent.com/-NeXcenVwV6Q/TjVX-nmHtII/AAAAAAAAaSc/EjfPLdcjO54/s770/IMG_1534.jpg
+  [8 bags of green coffee from the Sweet Marias sampler.]: https://lh3.googleusercontent.com/-NeXcenVwV6Q/TjVX-nmHtII/AAAAAAAAaSc/EjfPLdcjO54/s1000/IMG_1534.jpg
   [Materials: Measuring cup, collander, green coffee, glass jar, and
-  popcorn popper.]: https://lh6.googleusercontent.com/-VpSsNThnw9Y/TjVYa55BtnI/AAAAAAAAaSs/aJVgRRLOA3s/s770/IMG_1541.jpg
-  [The West Bend Poppery II.]: https://lh3.googleusercontent.com/-1x5Ar6VGWek/TjVYaRlU_4I/AAAAAAAAaSk/4xyluhfxUzA/s770/IMG_1538.jpg
-  [A bag of green coffee from Sweet Marias.]: https://lh5.googleusercontent.com/-16vnrhcQuMk/TjVYaEyHnOI/AAAAAAAAaSg/MjCtD9NOxjM/s770/IMG_1539.jpg
-  [Some freshly roasted coffee being cooled in the collander.]: https://lh5.googleusercontent.com/-rW7fQay7_QY/TjVYbZym84I/AAAAAAAAaS0/zFKEfoKKGSA/s770/IMG_1550.jpg
+  popcorn popper.]: https://lh6.googleusercontent.com/-VpSsNThnw9Y/TjVYa55BtnI/AAAAAAAAaSs/aJVgRRLOA3s/s1000/IMG_1541.jpg
+  [The West Bend Poppery II.]: https://lh3.googleusercontent.com/-1x5Ar6VGWek/TjVYaRlU_4I/AAAAAAAAaSk/4xyluhfxUzA/s1000/IMG_1538.jpg
+  [A bag of green coffee from Sweet Marias.]: https://lh5.googleusercontent.com/-16vnrhcQuMk/TjVYaEyHnOI/AAAAAAAAaSg/MjCtD9NOxjM/s1000/IMG_1539.jpg
+  [Some freshly roasted coffee being cooled in the collander.]: https://lh5.googleusercontent.com/-rW7fQay7_QY/TjVYbZym84I/AAAAAAAAaS0/zFKEfoKKGSA/s1000/IMG_1550.jpg

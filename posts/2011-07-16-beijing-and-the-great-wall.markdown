@@ -3,7 +3,7 @@ title: Beijing and the Great Wall
 excerpt: An amazing experience. China was the best part of the trip.
 ---
 
-![Inscribed bamboo in Beihei Park](https://lh3.googleusercontent.com/-M88iZFk67_k/TgODQ9FcsiI/AAAAAAAAX8U/XIgQ9KOPpnU/s770/IMG_2689.JPG)
+![Inscribed bamboo in Beihei Park](https://lh3.googleusercontent.com/-M88iZFk67_k/TgODQ9FcsiI/AAAAAAAAX8U/XIgQ9KOPpnU/s1000/IMG_2689.JPG)
 
 I arrived in China at around 4 in the morning. After exiting the
 airport, I was greeted by a young guy who wondered if I was
@@ -22,23 +22,23 @@ morning, I set off to explore Beijing. I first went to Tiananmen Square,
 the largest public square in the world. It may also be the least
 exciting: a vast grey expanse of Communist concrete. 
 
-![Tiananmen Square](https://lh3.googleusercontent.com/-vtiq6y5aO2w/TgN8zuxBUhI/AAAAAAAAXu4/eJkbEgezMTo/s770/IMG_2623.JPG)
+![Tiananmen Square](https://lh3.googleusercontent.com/-vtiq6y5aO2w/TgN8zuxBUhI/AAAAAAAAXu4/eJkbEgezMTo/s1000/IMG_2623.JPG)
 
 I proceeded
 onwards, past Mao's portrait and into the Forbidden City. 
 
-![Portrait of Mao Zedong](https://lh5.googleusercontent.com/-0joUqkg974k/TgOANUBw1LI/AAAAAAAAXyA/b2Rc8noxlXY/s770/IMG_2640.JPG)
+![Portrait of Mao Zedong](https://lh5.googleusercontent.com/-0joUqkg974k/TgOANUBw1LI/AAAAAAAAXyA/b2Rc8noxlXY/s1000/IMG_2640.JPG)
 
 This was
 extremely impressive, but I was perhaps too exhausted to fully appreciate
 it. 
 
-![Part of the Forbidden City](https://lh6.googleusercontent.com/-1UWxUU6c6S4/TgOBfJQao8I/AAAAAAAAX2M/gW7YwMMUU7s/s770/IMG_2660.JPG)
+![Part of the Forbidden City](https://lh6.googleusercontent.com/-1UWxUU6c6S4/TgOBfJQao8I/AAAAAAAAX2M/gW7YwMMUU7s/s1000/IMG_2660.JPG)
 
 I had some lunch, and continued on to Beihei park. Beihei was
 nice, with a series of temples leading up to a white pagoda at the top of the hill.
 
-![Beihei Park](https://lh6.googleusercontent.com/-NVXT6PHh7B0/TgODKD-ifjI/AAAAAAAAX78/xYOGPuwNXHs/s770/IMG_2687.JPG)
+![Beihei Park](https://lh6.googleusercontent.com/-NVXT6PHh7B0/TgODKD-ifjI/AAAAAAAAX78/xYOGPuwNXHs/s1000/IMG_2687.JPG)
 
 Later that evening, the hostel was serving free dumplings. I met a guy
 there who was planning on living in China for several months. He
@@ -159,7 +159,7 @@ The next day, I went on a trip to a more remote section of the Great
 Wall - the Mutianyu section. It was really impressive, and quite an
 intense hike as well. 
 
-![Steep steps at the Mutianyu section of the Great Wall](https://lh5.googleusercontent.com/-2fHJffD-orU/TgOE9TLszLI/AAAAAAAAYCs/OlBBewxe_2w/s770/IMG_2727.JPG)
+![Steep steps at the Mutianyu section of the Great Wall](https://lh5.googleusercontent.com/-2fHJffD-orU/TgOE9TLszLI/AAAAAAAAYCs/OlBBewxe_2w/s1000/IMG_2727.JPG)
 
 I didn't have enough cash to purchase a ride on
 the cable car up the mountain, so I walked up it instead. It wouldn't
@@ -171,7 +171,7 @@ steep ascents and descents when climbing along the Wall. Luckily, there
 are stairs, but the Chinese built them irregularly to trip
 up enemy soldiers (and more recently, American tourists). 
 
-![Standing on the Great Wall](https://lh3.googleusercontent.com/-2iSXHdxAjl8/TgOFoCHTQbI/AAAAAAAAY6E/wKTFwGDPsqM/s770/IMG_2737.JPG)
+![Standing on the Great Wall](https://lh3.googleusercontent.com/-2iSXHdxAjl8/TgOFoCHTQbI/AAAAAAAAY6E/wKTFwGDPsqM/s1000/IMG_2737.JPG)
 
 After hiking
 the Wall for a few hours, we had a great lunch that alone was worth the price
@@ -182,7 +182,7 @@ Dong'huamen night market. Dong'huanmen night market is a place where street vend
 roasted lizards, still-writhing scorpions, and candied fruits - all skewered on
 sticks. 
 
-![Lizards on sticks](https://lh4.googleusercontent.com/-b3qvhPuo1AA/TgOGk-fFySI/AAAAAAAAYH4/yzOGDSDiYlc/s770/IMG_2754.JPG)
+![Lizards on sticks](https://lh4.googleusercontent.com/-b3qvhPuo1AA/TgOGk-fFySI/AAAAAAAAYH4/yzOGDSDiYlc/s1000/IMG_2754.JPG)
 
 The first thing we tried was a Beijing specialty: fermented
 tofu. As the guy handed it over to us, he made a great gesture with his
@@ -217,7 +217,7 @@ bicyclist - definitely a less tame place to bike than Palo Alto! We
 were weaving through traffic, dodging pedestrians and trying to take
 photos at the same time. It was a lot of fun.
 
-![Bicycling in Beijing](https://lh6.googleusercontent.com/-oMtWzQYeQPc/TgOG7zvnlbI/AAAAAAAAYJU/GBiAlCy5e_w/s770/IMG_2762.JPG)
+![Bicycling in Beijing](https://lh6.googleusercontent.com/-oMtWzQYeQPc/TgOG7zvnlbI/AAAAAAAAYJU/GBiAlCy5e_w/s1000/IMG_2762.JPG)
 
 Later in the day, I went to the Lama Temple. This was not one temple but
 rather a massive compound of temples, culminating in a temple
@@ -232,7 +232,7 @@ If I were to become religious, I would
 definitely prefer burning a bunch of incense at the Lama Temple to
 sitting still in a church for a couple hours.
 
-![Inside one of the temples](https://lh3.googleusercontent.com/-hs8WoeIVmsQ/TgOIfBJHDWI/AAAAAAAAYO8/u1xRnM16H4o/s770/IMG_2790.JPG)
+![Inside one of the temples](https://lh3.googleusercontent.com/-hs8WoeIVmsQ/TgOIfBJHDWI/AAAAAAAAYO8/u1xRnM16H4o/s1000/IMG_2790.JPG)
 
 Later that evening, the four of us who had been sharing a room for the
 past few days went out and shared a final meal together at a local Muslim
@@ -240,7 +240,7 @@ restaurant. Well, it was Chinese food but the people who owned the place
 were Muslims, I think. Anyway, the food delicious and cheap - a great
 way to end a great trip to China.
 
-![A single act of carelessness leads to the eternal loss of beauty.](https://lh4.googleusercontent.com/-F0G0QZ6b57o/TgOCr2xtMcI/AAAAAAAAX6g/Ni5QOGaB31M/s770/IMG_2680.JPG)
+![A single act of carelessness leads to the eternal loss of beauty.](https://lh4.googleusercontent.com/-F0G0QZ6b57o/TgOCr2xtMcI/AAAAAAAAX6g/Ni5QOGaB31M/s1000/IMG_2680.JPG)
 
 The next morning, I took a cab to the train station and boarded the
 train to Moscow.

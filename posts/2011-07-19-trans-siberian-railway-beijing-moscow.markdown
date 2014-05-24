@@ -3,7 +3,7 @@ title: The Trans-Siberian Railway, Beijing-Moscow
 excerpt: I took the Trans-Siberian Railway from Beijing to Moscow. Once-in-a-lifetime experience.
 ---
 
-![The Trans-Siberian Railway At Ulan Bator](https://lh6.googleusercontent.com/-2lYgbyQYlOs/TgOLNhCEJtI/AAAAAAAAYYs/0M1m0LRHYyY/s770/IMG_2841.JPG)
+![The Trans-Siberian Railway At Ulan Bator](https://lh6.googleusercontent.com/-2lYgbyQYlOs/TgOLNhCEJtI/AAAAAAAAYYs/0M1m0LRHYyY/s1000/IMG_2841.JPG)
 
 I traveled on the Trans-Siberian Railway from Beijing to Moscow. There
 were very few people on the train - only three travelers in my car,
@@ -72,7 +72,7 @@ gauge, I popped into the small grocery store at the train station and
 bought some oranges, grapes, and bread. Thanks to this wise decision I
 didn't die of scurvy in the middle of Siberia.
 
-![Food On The Trans-Siberian Railway](https://lh6.googleusercontent.com/-BXjw8ndS9ys/TgOKWHw-kwI/AAAAAAAAYVg/S8ceOTeFDY0/s770/IMG_2825.JPG)
+![Food On The Trans-Siberian Railway](https://lh6.googleusercontent.com/-BXjw8ndS9ys/TgOKWHw-kwI/AAAAAAAAYVg/S8ceOTeFDY0/s1000/IMG_2825.JPG)
 
 ### Books ###
 
@@ -114,13 +114,13 @@ of them was a journalist who had a passion for traditional wrestling. He
 was traveling to Mongolia to take part in some wrestling tournaments
 and, hopefully, live to tell the tale.
 
-![Chinese Apartment Buildings](https://lh3.googleusercontent.com/-pm6hmZaIZZc/TgOKCe6majI/AAAAAAAAYUY/cQbmwct41u0/s770/IMG_2819.JPG)
+![Chinese Apartment Buildings](https://lh3.googleusercontent.com/-pm6hmZaIZZc/TgOKCe6majI/AAAAAAAAYUY/cQbmwct41u0/s1000/IMG_2819.JPG)
 
 We passed the Chinese border control in the middle of the night. The border
 guard took my passport, leaving me to wonder if I would ever see
 it again. 
 
-![Erenhot Train Station](https://lh3.googleusercontent.com/-Oymx95jXU4M/TgOKMx-MqqI/AAAAAAAAYVA/_FT-g6JXnws/s770/IMG_2822.JPG)
+![Erenhot Train Station](https://lh3.googleusercontent.com/-Oymx95jXU4M/TgOKMx-MqqI/AAAAAAAAYVA/_FT-g6JXnws/s1000/IMG_2822.JPG)
 
 The bogies on the train were then changed to accomodate the
 Russian gauge tracks in Mongolia and Russia. This process took a couple
@@ -133,23 +133,23 @@ Mongolia was an interesting place to travel through. It's the 19th
 largest country in the world, but very sparsely populated. I think
 around 45% of the population lives in the capital, Ulan Bator. 
 
-![Ulan Bator Train Station](https://lh5.googleusercontent.com/-i5Tr85_wjh4/TgOLGeQ83QI/AAAAAAAAYYQ/-o6JoVt5y88/s770/IMG_2839.JPG)
+![Ulan Bator Train Station](https://lh5.googleusercontent.com/-i5Tr85_wjh4/TgOLGeQ83QI/AAAAAAAAYYQ/-o6JoVt5y88/s1000/IMG_2839.JPG)
 
 For the
 most part, the landscape consisted of vast, green, rolling hills dotted
 with yurts and livestock. 
 
-![The Trans-Siberian Railway Passing Through Mongolia](https://lh6.googleusercontent.com/-9pdsCHWzW9A/TgOKgKUmzMI/AAAAAAAAYWM/-nCYnrkZOVI/s770/IMG_2828.JPG)
+![The Trans-Siberian Railway Passing Through Mongolia](https://lh6.googleusercontent.com/-9pdsCHWzW9A/TgOKgKUmzMI/AAAAAAAAYWM/-nCYnrkZOVI/s1000/IMG_2828.JPG)
 
 The gradual appearance of wooden houses, fences, and a road alerted me
 that we were approaching Ulan Bator. 
 
-![The Outskirts of Ulan Bator](https://lh4.googleusercontent.com/-EfmoxehWcbI/TgOKr3-RNnI/AAAAAAAAYWw/jN1rXO92YKY/s770/IMG_2831.JPG)
+![The Outskirts of Ulan Bator](https://lh4.googleusercontent.com/-EfmoxehWcbI/TgOKr3-RNnI/AAAAAAAAYWw/jN1rXO92YKY/s1000/IMG_2831.JPG)
 
 In fact, the center of Ulan Bator
 does have some modern buildings, but the outskirts are rather shabby. 
 
-![Downtown Ulan Bator](https://lh5.googleusercontent.com/-XOiVIJuLj_4/TgOLKa74OvI/AAAAAAAAYYY/TGZWZ4xiu7o/s770/IMG_2840.JPG)
+![Downtown Ulan Bator](https://lh5.googleusercontent.com/-XOiVIJuLj_4/TgOLKa74OvI/AAAAAAAAYYY/TGZWZ4xiu7o/s1000/IMG_2840.JPG)
 
 I don't see why you would live in a little wooden house in the outskirts 
 of Ulan Bator when you could instead live in a yurt with a vast tract of
@@ -163,12 +163,12 @@ vegetation. Granted, we did pass by several cities which had clearly
 seen better days, but these were balanced out by some idyllic cottages
 and houses along the route. 
 
-![Small Houses In Russia](https://lh3.googleusercontent.com/-uBuHfowhwf8/TgONw9Z80nI/AAAAAAAAYho/2YTDD8J6ryU/s770/IMG_2887.JPG)
+![Small Houses In Russia](https://lh3.googleusercontent.com/-uBuHfowhwf8/TgONw9Z80nI/AAAAAAAAYho/2YTDD8J6ryU/s1000/IMG_2887.JPG)
 
 We passed by Lake Baikal, the oldest and deepest lake in the world. For
 the most part, it was just a massive grey void on the horizon. 
 
-![Cottage On The Banks Of Lake Baikal](https://lh6.googleusercontent.com/-ya79iEeQBl8/TgOMSTAZH2I/AAAAAAAAYcg/iUhZKFJ69hA/s770/IMG_2860.JPG)
+![Cottage On The Banks Of Lake Baikal](https://lh6.googleusercontent.com/-ya79iEeQBl8/TgOMSTAZH2I/AAAAAAAAYcg/iUhZKFJ69hA/s1000/IMG_2860.JPG)
 
 Still,
 pretty cool to pass by it.
@@ -178,11 +178,11 @@ pretty cool to pass by it.
 At one point, the tracks
 followed the path of a really beautiful river. 
 
-![The Sylva River](https://lh5.googleusercontent.com/-BNaZpgJdhq4/TgON_QVYPUI/AAAAAAAAYig/IFMtkeYvC5Y/s770/IMG_2891.JPG)
+![The Sylva River](https://lh5.googleusercontent.com/-BNaZpgJdhq4/TgON_QVYPUI/AAAAAAAAYig/IFMtkeYvC5Y/s1000/IMG_2891.JPG)
 
 There were many small, painted cottages along the banks.
 
-![Cottages On The Banks Of The Sylva River](https://lh3.googleusercontent.com/-X07GmiMEaMI/TgOPMiN9d1I/AAAAAAAAYlI/yXdhfh3s9qY/s770/IMG_2902.JPG)
+![Cottages On The Banks Of The Sylva River](https://lh3.googleusercontent.com/-X07GmiMEaMI/TgOPMiN9d1I/AAAAAAAAYlI/yXdhfh3s9qY/s1000/IMG_2902.JPG)
 
 Later I learned that it is called the Sylva
 River.
@@ -197,4 +197,4 @@ deportation.
 I arrived in Moscow safely, albeit with a strong urge for real food and
 coffee.
 
-![Arriving In Moscow On The Trans-Siberian Railway](https://lh5.googleusercontent.com/-RbfalgPdWpc/TgOPdxvSYDI/AAAAAAAAYmA/zBzMgoZ6h4k/s770/IMG_2909.JPG)
+![Arriving In Moscow On The Trans-Siberian Railway](https://lh5.googleusercontent.com/-RbfalgPdWpc/TgOPdxvSYDI/AAAAAAAAYmA/zBzMgoZ6h4k/s1000/IMG_2909.JPG)

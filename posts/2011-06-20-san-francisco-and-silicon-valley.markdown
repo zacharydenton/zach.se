@@ -3,7 +3,7 @@ title: San Francisco and Silicon Valley
 excerpt: Always a pleasure to visit this part of the country.
 ---
 
-![A rocky section of the California coast](https://lh3.googleusercontent.com/-cY4HcgIhpJ4/TgN5iOHDRrI/AAAAAAAAXrY/CtCabSHYPLY/s770/IMG_2604.JPG)
+![A rocky section of the California coast](https://lh3.googleusercontent.com/-cY4HcgIhpJ4/TgN5iOHDRrI/AAAAAAAAXrY/CtCabSHYPLY/s1000/IMG_2604.JPG)
 
 The California Zephyr route was extremely beautiful, passing first through
 the plains and then into more interesting landscape as we crossed the 
@@ -51,7 +51,7 @@ accelerator was closed to the public. I then biked to Stanford's nature
 reserve and hiked up to "The Dish", a radio telescope perched on top of
 a hill with a view all the way to San Francisco. 
 
-![The Dish at Stanford's nature reserve](https://lh5.googleusercontent.com/-CZ9H6BdpYn4/TgN2X_tWnII/AAAAAAAAXgk/TjydmhvuQGg/s770/IMG_2553.JPG)
+![The Dish at Stanford's nature reserve](https://lh5.googleusercontent.com/-CZ9H6BdpYn4/TgN2X_tWnII/AAAAAAAAXgk/TjydmhvuQGg/s1000/IMG_2553.JPG)
 
 Later that evening, we had
 sushi at a place called Miyake. We sat at the bar where they served sushi
@@ -83,13 +83,13 @@ The following morning, I took the train south to San Jose and met up with
 another distant relative, Barbara, and her husband, Bill. We drove to Santa Cruz
 and had lunch on the pier there. 
 
-![Sea lion on the pier in Santa Cruz](https://lh5.googleusercontent.com/-4EnEAPXEqZ0/TgN2g8XSJWI/AAAAAAAAXhE/hP3Po2tSU1M/s770/IMG_2556.JPG)
+![Sea lion on the pier in Santa Cruz](https://lh5.googleusercontent.com/-4EnEAPXEqZ0/TgN2g8XSJWI/AAAAAAAAXhE/hP3Po2tSU1M/s1000/IMG_2556.JPG)
 
 We spent the afternoon exploring the area,
 seeing the surfing museum and a few dedicated souls out in the water on 
 that cold, rainy day. 
 
-![Surf spot close to Santa Cruz](https://lh6.googleusercontent.com/-MHHxpNVkndY/TgN23yDjUTI/AAAAAAAAXiM/_qtntgczNFE/s770/IMG_2562.JPG)
+![Surf spot close to Santa Cruz](https://lh6.googleusercontent.com/-MHHxpNVkndY/TgN23yDjUTI/AAAAAAAAXiM/_qtntgczNFE/s1000/IMG_2562.JPG)
 
 In the evening we went to the house. They have a great place;
 the garden in the back was very impressive and they had chickens as well.
@@ -114,7 +114,7 @@ we drove to Monterey and saw Cannery Row (think Steinbeck). We then
 explored other interesting places in the area, including a pier completely
 covered with sea lions.
 
-![Pier covered with sea lions](https://lh6.googleusercontent.com/-Y7QxOZnUALo/TgN53_qnn3I/AAAAAAAAXsk/CNEhYdAANzg/s770/IMG_2610.JPG)
+![Pier covered with sea lions](https://lh6.googleusercontent.com/-Y7QxOZnUALo/TgN53_qnn3I/AAAAAAAAXsk/CNEhYdAANzg/s1000/IMG_2610.JPG)
 
 <iframe src="http://player.vimeo.com/video/26581160?title=0&amp;byline=0&amp;portrait=0" width="620" height="465" frameborder="0"></iframe>
 

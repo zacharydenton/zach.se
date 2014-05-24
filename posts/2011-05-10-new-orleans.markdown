@@ -3,7 +3,7 @@ title: New Orleans
 excerpt: Jazz Fest, great food, and good times in New Orleans.
 ---
 
-![New Orleans streetcar](https://lh5.googleusercontent.com/-vL-Bt-kpqCc/Tcig0ITQFgI/AAAAAAAAXMc/GTvnp8zWN-M/s770/IMG_2018.JPG)
+![New Orleans streetcar](https://lh5.googleusercontent.com/-vL-Bt-kpqCc/Tcig0ITQFgI/AAAAAAAAXMc/GTvnp8zWN-M/s1000/IMG_2018.JPG)
 
 I spent the last few days in New Orleans for Jazz Fest.
 Everything about it was awesome - great food, great music, great times.
@@ -22,7 +22,7 @@ be 21 to get in anywhere (if you're a guy). Not even the Irish pub let
 me in. Finally I found an oyster bar off the beaten path and
 had a nice fried oyster po'boy.
 
-![Walking through the French Quarter](https://lh4.googleusercontent.com/-j9WjwubLm_4/Tcic9rUFOgI/AAAAAAAAXGA/v9c4dltgWSA/s770/IMG_1985.JPG)
+![Walking through the French Quarter](https://lh4.googleusercontent.com/-j9WjwubLm_4/Tcic9rUFOgI/AAAAAAAAXGA/v9c4dltgWSA/s1000/IMG_1985.JPG)
 
 The next morning, my dad and I walked through the French Quarter to Jazz
 Fest. Along the way we met some lady who had been going to Jazz Fest for
@@ -37,7 +37,7 @@ of food at Jazz Fest. There were long rows of kiosks each serving their
 own Louisiana specialities. Crawfish, gumbo, boudin, jambalaya, barbeque... 
 basically all the Cajun/Creole cuisine you could ask for.
 
-![Wilco at Jazz Fest](https://lh6.googleusercontent.com/-nZbZbAEuISU/TcieXxEWmFI/AAAAAAAAXIU/mV4Bj_6ktXg/s770/IMG_1998.JPG)
+![Wilco at Jazz Fest](https://lh6.googleusercontent.com/-nZbZbAEuISU/TcieXxEWmFI/AAAAAAAAXIU/mV4Bj_6ktXg/s1000/IMG_1998.JPG)
 
 The best part, though, was the music. I was pleased to see a variety of
 genres represented at Jazz Fest. They have around 12 different stages
@@ -58,7 +58,7 @@ My favorite performances:
 4. Better Than Ezra
 5. Christian Scott
 
-![Michael Franti at Jazz Fest](https://lh4.googleusercontent.com/-h443V3RL6J4/TciiTDBHntI/AAAAAAAAXPA/DQYfBhLKqYw/s770/IMG_2034.JPG)
+![Michael Franti at Jazz Fest](https://lh4.googleusercontent.com/-h443V3RL6J4/TciiTDBHntI/AAAAAAAAXPA/DQYfBhLKqYw/s1000/IMG_2034.JPG)
 
 It was a great music festival and I hope to return sometime.
 
@@ -67,4 +67,4 @@ to Chicago. Originally I was supposed to take the "City of New Orleans" Amtrak t
 to Chicago, but due to the flooding of the Mississippi the train was cancelled. 
 Luckily, I was able to get a ride to the airport in Nashville (thanks again!). 
 
-![The Radiators' farewell](https://lh6.googleusercontent.com/-nBfbEQOfuuY/TcimlwB2V1I/AAAAAAAAXU8/dzR7mgLQ-pg/s770/IMG_2067.JPG)
+![The Radiators' farewell](https://lh6.googleusercontent.com/-nBfbEQOfuuY/TcimlwB2V1I/AAAAAAAAXU8/dzR7mgLQ-pg/s1000/IMG_2067.JPG)
