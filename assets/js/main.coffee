@@ -30,9 +30,13 @@ class Banner
   
     @renderer = new THREE.WebGLRenderer()
     @$banner.append(@renderer.domElement)
+    @animating = $('body').is('.front')
+    @random = Math.random()
+    @timeOffset = 0
 
     $(window).resize (e) => @resize(e)
     $(window).mousemove (e) => @mousemove(e)
+    $('header').click (e) => @toggleAnimation()
 
   resize: (e) ->
     @width = @$banner.width()
@@ -45,18 +49,26 @@ class Banner
   mousemove: (e) ->
     @uniforms.mouse.value = new THREE.Vector2(e.clientX / @width, 1 - e.clientY / @height)
 
-  render: ->
-    if not @frameCount?
-      @frameCount = 0
-      @startTime = Date.now()
-    if @frameCount == 60
-      if (Date.now() - @startTime) / 1000 > 60 / 20
-        # disable animation
-        return
-    @uniforms.time.value = (Date.now() - @startTime) / 1000
-    @renderer.clear()
-    @renderer.render(@scene, @camera)
-    requestAnimationFrame => @render()
+  toggleAnimation: ->
+    @animating = not @animating
+
+    if @animating
+      @lastAnimated ?= 0
+      @timeOffset += @lastAnimated - @timestamp
+      @render()
+    else
+      @lastAnimated = @timestamp
+
+  render: (timestamp) ->
+    timestamp ?= 0
+    @timestamp = timestamp / 1000
+
+    if @animating or @timestamp == 0
+      @uniforms.time.value = @timestamp + @timeOffset + @random * 1000
+      @renderer.clear()
+      @renderer.render(@scene, @camera)
+
+    requestAnimationFrame (timestamp) => @render(timestamp)
 
 $ ->
   window.banner = new Banner()
