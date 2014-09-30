@@ -40,5 +40,5 @@ The second function, `bp_album_get_the_author()`, works similarly to
 `get_the_author()`. It simply returns the display name of the author of
 the current image in the loop.
 
-  [BuddyPress Album+ loop]: /programming/how-to-display-buddypress-album-images-anywhere/
+  [BuddyPress Album+ loop]: /how-to-display-buddypress-album-images-anywhere/
     "How To Display BuddyPress Album Images Anywhere"

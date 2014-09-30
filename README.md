@@ -1,4 +1,4 @@
-zacharydenton.com
-=================
+zach.se
+=======
 
 Haskell-powered blog.

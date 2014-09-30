@@ -132,5 +132,5 @@ feedConfiguration = FeedConfiguration {
     feedDescription = "On life, the universe, and everything.",
     feedAuthorName = "Zach Denton",
     feedAuthorEmail = "z@chdenton.com",
-    feedRoot = "http://zacharydenton.com"
+    feedRoot = "http://zach.se"
 }

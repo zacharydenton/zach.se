@@ -99,5 +99,5 @@ themes.
 
   [Ultralight Backpacking Network]: http://ultralightbackpacking.net
     "Ultralight Backpacking Network"
-  [this post]: /programming/buddypress-album-author-template-tags/
+  [this post]: /buddypress-album-author-template-tags/
     "BuddyPress Album Author Template Tags"
