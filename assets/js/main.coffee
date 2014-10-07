@@ -2,7 +2,10 @@ class FractalBanner
   constructor: ->
     @banner = document.getElementById("banner")
     @header = document.getElementById("header")
+
     @initRenderer()
+    return unless @gl?
+
     @initShaders()
     @initQuad()
     @resize()
@@ -83,7 +86,7 @@ class FractalBanner
     @timestamp = timestamp / 1000
 
     if @animating or @timestamp == 0
-      @gl.uniform1f(@timeUniform, @timestamp + @timeOffset + @random * 400)
+      @gl.uniform1f(@timeUniform, @timestamp + @timeOffset + @random * 300)
       @gl.drawArrays(@gl.TRIANGLE_STRIP, 0, 4)
 
     requestAnimationFrame (timestamp) => @render(timestamp)

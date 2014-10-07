@@ -4,46 +4,47 @@ $if(bodyclass)$
 $else$
 <html lang="en-us">
 $endif$
-	<head>
-		<meta charset="utf-8">
-		$if(notitle)$
-		<title>Zach Denton</title>
-		$else$
-		<title>$title$ - Zach Denton</title>
-		$endif$
-		<meta name="author" content="Zach Denton">
-		<meta name="description" content="$excerpt$">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Share+Tech:400">
-		<link rel="stylesheet" href="/css/main.css">
-		$if(math)$
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config({
-  			tex2jax: {inlineMath: [['$$','$$'], ['\\(','\\)']]}
-  		});
-		</script>
-		<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-		$endif$
-	</head>
-	$if(bodyclass)$
-	<body class="$bodyclass$">
-	$else$
-	<body>
-	$endif$
-		<div id="banner"></div>
-		<header id="header" role="banner">
-			<h1><a href="/">Zach Denton</a></h1>
-			<nav>
-			<ul>
-				<li><a href="/about/">About</a></li>
-				<li><a href="/archives/">Blog</a></li>
-				<li><a href="/project-euler-solutions/">Euler</a></li>
-				<li><a href="https://github.com/zacharydenton">GitHub</a></li>
-				<li><a href="/resume.pdf">Resume</a></li>
-			</ul>
-			</nav>
-		</header>
-		$body$
-		<script src="/js/main.js"></script>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        $if(notitle)$
+        <title>Zach Denton</title>
+        $else$
+        <title>$title$ - Zach Denton</title>
+        $endif$
+        <meta name="author" content="Zach Denton">
+        <meta name="description" content="$excerpt$">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Share+Tech:400">
+        <link rel="stylesheet" href="/css/main.css">
+        $if(math)$
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$$','$$'], ['\\(','\\)']]}
+        });
+        </script>
+        <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        $endif$
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-15976986-5', 'auto');ga('send', 'pageview');</script>
+    </head>
+    $if(bodyclass)$
+    <body class="$bodyclass$">
+    $else$
+    <body>
+    $endif$
+        <div id="banner"></div>
+        <header id="header" role="banner">
+            <h1><a href="/">Zach Denton</a></h1>
+            <nav>
+            <ul>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/archives/">Blog</a></li>
+                <li><a href="/project-euler-solutions/">Euler</a></li>
+                <li><a href="https://github.com/zacharydenton">GitHub</a></li>
+                <li><a href="/resume.pdf">Resume</a></li>
+            </ul>
+            </nav>
+        </header>
+        $body$
+        <script src="/js/main.js"></script>
+    </body>
 </html>
