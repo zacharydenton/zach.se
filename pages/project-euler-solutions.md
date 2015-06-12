@@ -18,7 +18,7 @@ In fact, [this entire website is open source](http://github.com/zacharydenton/za
 
 <span class="label label-info">C</span> <span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
@@ -26,7 +26,7 @@ Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
 
 <span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
@@ -34,15 +34,15 @@ Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
 
 <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
 ## [Project Euler Problem 4 Solution](4/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-05-19" data-updated="true">May 19, 2015</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
@@ -74,7 +74,7 @@ Updated: <time datetime="2014-05-14" data-updated="true">May 14, 2014</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-05-19" data-updated="true">May 19, 2015</time>
+Updated: <time datetime="2015-05-23" data-updated="true">May 23, 2015</time>
 
 ------
 
