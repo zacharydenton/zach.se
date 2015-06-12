@@ -98,7 +98,7 @@ Updated: <time datetime="2015-05-19" data-updated="true">May 19, 2015</time>
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-16" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
@@ -402,7 +402,7 @@ Updated: <time datetime="2014-09-30" data-updated="true">September 30, 2014</tim
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2014-05-19" data-updated="true">May 19, 2014</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 

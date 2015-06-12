@@ -208,7 +208,7 @@ class Solution(object):
 
     def __unicode__(self):
         output = '```%s\n' % (self.lexer)
-        output += self.content 
+        output += self.content.replace('\t', '    ')
         output += '```\n'
         return output 
 
