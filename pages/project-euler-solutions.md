@@ -48,9 +48,9 @@ Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ## [Project Euler Problem 5 Solution](5/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2012-04-27" data-updated="true">April 27, 2012</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
