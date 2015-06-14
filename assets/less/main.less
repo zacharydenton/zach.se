@@ -6,7 +6,7 @@ html {
 	background-color: @body-background;
 
 	&.front {
-		background-color: #303030;
+		background-color: #263238;
 	}
 }
 
@@ -17,7 +17,7 @@ body {
 	line-height: @line-height-base;
 	margin-top: @banner-height;
 
-	@media (max-width: 680px) {
+	@media (max-width: 800px) {
 		margin-top: @banner-height-small;
 	}
 
@@ -64,7 +64,7 @@ header {
 	right: 0;
 	margin: auto;
 	height: @banner-height;
-	padding: 0 2*@size-huge;
+	padding: 0 2*@size-giant;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -73,7 +73,7 @@ header {
 		padding: 0 @size-larger;
 	}
 
-	@media (max-width: 680px) {
+	@media (max-width: 800px) {
 		text-align: center;
 		padding: 0;
 		height: @banner-height-small;
@@ -93,23 +93,29 @@ header {
 		padding: 0;
 		color: @brand-primary;
 		font-family: @font-family-sans-serif;
-		font-size: @size-huge;
+		font-size: @size-giant;
+		font-weight: 900;
 		line-height: @banner-height;
 		text-rendering: optimizeLegibility;
 
-		@media (max-width: 680px) {
+		@media (max-width: 800px) {
 			line-height: 1;
 			margin-bottom: @size-base;
-			margin-top: @size-huge;
+			margin-top: @size-giant;
+		}
+
+		@media (max-width: 320px) {
+			font-size: @size-huge;
 		}
 	}
 
 	nav {
 		top: @size-mini;
-		right: 2*@size-huge;
+		right: 2*@size-giant;
 		position: absolute;
 		line-height: @banner-height;
 		font-size: @size-medium;
+		font-weight: 900;
 		text-transform: uppercase;
 		text-rendering: optimizeLegibility;
 
@@ -117,9 +123,21 @@ header {
 			right: @size-larger;
 		}
 
-		@media (max-width: 680px) {
+		@media (max-width: 800px) {
 			position: static;
 			line-height: 1;
+		}
+
+		@media (max-width: 600px) {
+			font-size: 18px;
+		}
+
+		@media (max-width: 420px) {
+			font-size: @size-base;
+		}
+
+		@media (max-width: 320px) {
+			font-size: @size-medsmall;
 		}
 
 		ul {
@@ -147,11 +165,11 @@ header {
 	right: 0;
 	margin: auto;
 	height: @banner-height;
-	background-color: @text-color;
+	background-color: #37474F;
 	z-index: -1;
 	overflow: hidden;
 
-	@media (max-width: 680px) {
+	@media (max-width: 800px) {
 		height: @banner-height-small;
 	}
 }

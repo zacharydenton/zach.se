@@ -88,9 +88,9 @@ Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ## [Project Euler Problem 10 Solution](10/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-05-19" data-updated="true">May 19, 2015</time>
+Updated: <time datetime="2015-06-12" data-updated="true">June 12, 2015</time>
 
 ------
 
