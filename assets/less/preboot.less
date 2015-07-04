@@ -41,7 +41,7 @@
 @link-color-hover:        lighten(@link-color, 25%);
 
 // Typography
-@font-family-sans-serif:  Futura, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+@font-family-sans-serif:  Futura, Candara, Roboto, Verdana, sans-serif;
 @font-family-serif:       "Iowan Old Style", Georgia, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Source Code Pro", "Ubuntu Mono", monospace;
 @font-family-base:        @font-family-serif;
@@ -406,4 +406,10 @@
     background-image: url("@{file-2x}");
     background-size: @width-1x @height-1x;
   }
+}
+
+.optimize-legibility(@ligatures: common-ligatures) {
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: @ligatures;
+  font-variant-ligatures: @ligatures;
 }

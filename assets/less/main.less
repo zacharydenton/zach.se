@@ -37,8 +37,8 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: @headings-font-family;
 	font-weight: @headings-font-weight;
-	text-rendering: optimizeLegibility;
 	line-height: 1.2;
+	.optimize-legibility;
 
 	a {
 		text-decoration: none;
@@ -96,7 +96,6 @@ header {
 		font-size: @size-giant;
 		font-weight: 900;
 		line-height: @banner-height;
-		text-rendering: optimizeLegibility;
 
 		@media (max-width: 800px) {
 			line-height: 1;
@@ -117,7 +116,7 @@ header {
 		font-size: @size-medium;
 		font-weight: 900;
 		text-transform: uppercase;
-		text-rendering: optimizeLegibility;
+		.optimize-legibility;
 
 		@media (max-width: @body-width) {
 			right: @size-larger;
@@ -185,10 +184,10 @@ article {
 	position: relative;
 	top: @size-huge;
 	max-width: @body-width;
-	text-rendering: optimizeLegibility;
 	word-wrap: break-word;
 	.center-block;
 	.hyphens;
+	.optimize-legibility;
 
 	@media (max-width: @article-width) {
 		overflow-x: hidden;
@@ -244,7 +243,6 @@ article {
 		margin-bottom: @size-medium;
 		padding: @size-mini;
 		font-size: @size-medsmall;
-		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
 		overflow-x: auto;
 		word-wrap: normal;
