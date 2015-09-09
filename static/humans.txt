@@ -3,9 +3,8 @@
 
 /* TEAM */
   Author: Zach Denton
-  Twitter: @zacharydenton
-  Location: Hanover, NH
+  GitHub: @zacharydenton
+  Location: San Francisco, CA
 
 /* SITE */
-  Components: Normalize.css, Preboot
   Software: Hakyll, LESS, CoffeeScript

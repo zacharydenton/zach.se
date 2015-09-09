@@ -26,13 +26,15 @@ main = hakyllWith config $ do
         compile $ loadBody "assets/less/main.less"
             >>= makeItem
             >>= withItemBody 
-                (unixFilter "lessc" ["-","--include-path=assets/less","--yui-compress","-O2"])
+                (unixFilter "lessc" ["--clean-css=--s0", "--include-path=assets/less", "-"])
 
     match "assets/**.coffee" $ do
         route $ setRoot `composeRoutes` setExtension "js"
         compile $ getResourceString
             >>= withItemBody
                 (unixFilter "coffee" ["--stdio", "--compile"])
+            >>= withItemBody
+                (unixFilter "uglifyjs" ["--compress", "--mangle", "-"])
 
     match "pages/**" $ do
         route   $ setRoot `composeRoutes` cleanURL
@@ -123,7 +125,7 @@ fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 
 config :: Configuration
 config = defaultConfiguration {
-        deployCommand = "rsync -av _site/ _deploy/ && cd _deploy && git add -A && git commit -m 'update site' && git push origin master"
+        deployCommand = "rsync -av _site/ /srv/http/zach.se/public/"
     }
 
 feedConfiguration :: FeedConfiguration
