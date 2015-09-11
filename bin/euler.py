@@ -31,7 +31,7 @@ lexers = {
 }
 
 interpreters = {
-    '.py': 'python2',
+    '.py': 'python3',
     '.rb': 'ruby',
     '.clj': 'clojure',
     '.scm': 'mit-scheme-native --quiet <',
