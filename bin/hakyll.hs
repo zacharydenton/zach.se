@@ -1,11 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 
-import           Data.Monoid (mappend)
-import           Control.Applicative
-import           Text.Pandoc.Options
-import           System.FilePath
-import           Hakyll
+import Control.Applicative
+import System.FilePath
+import Hakyll
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -94,9 +92,6 @@ main = hakyllWith config $ do
 
 
 --------------------------------------------------------------------------------
-pandocWriterOptions :: WriterOptions
-pandocWriterOptions = defaultHakyllWriterOptions { writerHTMLMathMethod = MathJax "" }
-
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
