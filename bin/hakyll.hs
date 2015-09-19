@@ -2,6 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Control.Applicative
+import Text.Pandoc.Options
 import System.FilePath
 import Hakyll
 
@@ -36,14 +37,14 @@ main = hakyllWith config $ do
 
     match "pages/**" $ do
         route   $ setRoot `composeRoutes` cleanURL
-        compile $ pandocCompiler
+        compile $ compiler
             >>= loadAndApplyTemplate "templates/page.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     match "posts/*" $ do
         route $ postRoute `composeRoutes` cleanURL
-        compile $ pandocCompiler
+        compile $ compiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -54,7 +55,7 @@ main = hakyllWith config $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
+                    constField "title" "Archives" `mappend`
                     constField "excerpt" "All posts by Zach Denton." `mappend`
                     defaultContext
 
@@ -70,8 +71,8 @@ main = hakyllWith config $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "notitle" "yes"               `mappend`
-                    constField "bodyclass" "front"           `mappend`
+                    constField "notitle" "yes" `mappend`
+                    constField "bodyclass" "front" `mappend`
                     constField "excerpt" "On life, the universe, and everything." `mappend`
                     defaultContext
 
@@ -92,6 +93,12 @@ main = hakyllWith config $ do
 
 
 --------------------------------------------------------------------------------
+compiler :: Compiler (Item String)
+compiler = pandocCompilerWith defaultHakyllReaderOptions writerOptions where
+  writerOptions = defaultHakyllWriterOptions {
+    writerHTMLMathMethod = KaTeX "" ""
+  }
+
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
