@@ -20,6 +20,8 @@ class FractalBanner
     document.addEventListener "mousemove", (e) => @mousemove(e)
     header.addEventListener "click", (e) => @toggleAnimation(e)
 
+    @render()
+
   initRenderer: ->
     @canvas = document.createElement("canvas")
     @banner.appendChild(@canvas)
@@ -132,4 +134,12 @@ class FractalBanner
 
     requestAnimationFrame (timestamp) => @render(timestamp)
 
-(new FractalBanner()).render()
+loadComments = ->
+  return if !document.getElementById("disqus_thread")
+  dsq = document.createElement("script")
+  dsq.async = true
+  dsq.src = "//a.disquscdn.com/embed.js"
+  document.getElementsByTagName("head")[0].appendChild(dsq)
+
+new FractalBanner()
+setTimeout(loadComments, 300)
