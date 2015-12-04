@@ -138,8 +138,9 @@ loadComments = ->
   return if !document.getElementById("disqus_thread")
   dsq = document.createElement("script")
   dsq.async = true
-  dsq.src = "//a.disquscdn.com/embed.js"
-  document.getElementsByTagName("head")[0].appendChild(dsq)
+  dsq.src = "//zacharydenton.disqus.com/embed.js"
+  dsq.setAttribute("data-timestamp", +new Date())
+  document.head.appendChild(dsq)
 
 new FractalBanner()
-setTimeout(loadComments, 300)
+setTimeout(loadComments, 1000)
