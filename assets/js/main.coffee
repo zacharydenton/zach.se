@@ -10,7 +10,7 @@ class FractalBanner
     @initPalette()
     @initQuad()
     @resize()
-  
+
     @animating = document.body.classList?.contains("front")
     @random = Math.random()
     @timeOffset = 0
@@ -68,15 +68,15 @@ class FractalBanner
 
     colors = colors[Math.floor(Math.random() * colors.length)]
 
-    lerp(0, 128,     colors[0], colors[1])
-    lerp(128, 192,   colors[1],   colors[2])
-    lerp(192, 224,  colors[2], colors[3])
-    lerp(224, 256,  colors[3], colors[4])
+    lerp(0, 128, colors[0], colors[1])
+    lerp(128, 192, colors[1], colors[2])
+    lerp(192, 224, colors[2], colors[3])
+    lerp(224, 256, colors[3], colors[4])
 
-    lerp(256, 320,     colors[4], colors[3])
-    lerp(320, 384,   colors[3],   colors[2])
-    lerp(384, 448,  colors[2], colors[1])
-    lerp(448, 512,  colors[1], colors[0])
+    lerp(256, 320, colors[4], colors[3])
+    lerp(320, 384, colors[3], colors[2])
+    lerp(384, 448, colors[2], colors[1])
+    lerp(448, 512, colors[1], colors[0])
 
     @paletteUniform = @gl.getUniformLocation(@shader, "palette")
     @gl.uniform1i(@paletteUniform, 0)
@@ -132,6 +132,4 @@ class FractalBanner
 
     requestAnimationFrame (timestamp) => @render(timestamp)
 
-document.addEventListener "DOMContentLoaded", ->
-  window.fractalBanner = new FractalBanner()
-  fractalBanner.render()
+(new FractalBanner()).render()
