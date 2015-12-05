@@ -203,7 +203,7 @@ class Solution(object):
         self.github_link = 'https://github.com/zacharydenton/euler/blob/master' + self.path.replace(os.path.expanduser('~/code/euler'), '')
         self.raw_link = 'https://raw.github.com/zacharydenton/euler/master' + self.path.replace(os.path.expanduser('~/code/euler'), '')
         self.content = codecs.open(self.path, 'r', 'utf-8').read()
-        self.last_modified = datetime.date.fromtimestamp(os.path.getmtime(self.path))
+        self.last_modified = git_last_modified(self.path)
         self.sha1 = hashlib.sha1(self.content).hexdigest()
         self.execution_time = ''
 
@@ -253,6 +253,14 @@ $ time %s %s
             if os.path.exists(os.path.join(cache_dir, self.sha1)):
                 os.remove(os.path.join(cache_dir, self.sha1))
             return False
+
+def git_last_modified(path):
+    args = ['git', 'log', '-1', '--format=%ad', '--date=raw', path]
+    dirname = os.path.dirname(path)
+    p = subprocess.Popen(args, stdout=subprocess.PIPE, cwd=dirname)
+    stdout, _ = p.communicate()
+    timestamp = int(stdout.split()[0])
+    return datetime.datetime.fromtimestamp(timestamp)
 
 def replace_tabs(s, ts=4):
     return '\n'.join(replace_tab(line, ts) for line in s.split('\n'))
