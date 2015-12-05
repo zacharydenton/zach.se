@@ -40,12 +40,6 @@ $endif$
         $body$
         $if(math)$
         <script src="/katex/katex.min.js"></script>
-        <script>
-        var math = document.querySelectorAll(".math");
-        for (var i = 0, l = math.length; i < l; i++) {
-          katex.render(math[i].textContent, math[i], {displayMode: math[i].className.indexOf("display") >= 0});
-        }
-        </script>
         $endif$
         <script src="/js/main.js"></script>
     </body>

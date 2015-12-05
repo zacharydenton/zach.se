@@ -116,6 +116,9 @@ feedCtx =
     bodyField "description" `mappend`
     postCtx
 
+renderKaTeX :: Item String -> Compiler (Item String)
+renderKaTeX = withItemBody (unixFilter "bin/katex.js" [])
+
 postRoute :: Routes
 postRoute = customRoute $ drop 11 . stripTopDir
 
