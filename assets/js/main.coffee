@@ -134,13 +134,4 @@ class FractalBanner
 
     requestAnimationFrame (timestamp) => @render(timestamp)
 
-loadComments = ->
-  return if !document.getElementById("disqus_thread")
-  dsq = document.createElement("script")
-  dsq.async = true
-  dsq.src = "//zacharydenton.disqus.com/embed.js"
-  dsq.setAttribute("data-timestamp", +new Date())
-  document.head.appendChild(dsq)
-
 new FractalBanner()
-setTimeout(loadComments, 1000)

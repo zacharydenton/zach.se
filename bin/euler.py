@@ -48,6 +48,7 @@ post_template = Template('''\
 date: {{ problem.last_modified }}
 title: Project Euler Problem {{ problem.number }} Solution
 excerpt: {{ problem.excerpt }}
+comments: true
 math: true
 ---
 
@@ -210,7 +211,7 @@ class Solution(object):
         output = '```%s\n' % (self.lexer)
         output += self.content.replace('\t', '    ')
         output += '```\n'
-        return output 
+        return output
 
     def __str__(self):
         return self.__unicode__()
@@ -263,14 +264,14 @@ def replace_tab(s, ts=4):
             while (len(result) % ts != 0):
                 result += ' ';
         else:
-            result += c    
+            result += c
     return result
 
 def generate_posts(problems, output_dir):
     '''rebuild all posts.'''
     for problem in problems:
         problem.save(output_dir)
-        
+
 def generate_index(problems, output):
     problems = sorted(problems, key = lambda problem: problem.number)
     content = index_template.render(

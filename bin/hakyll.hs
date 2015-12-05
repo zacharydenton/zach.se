@@ -38,14 +38,14 @@ main = hakyllWith config $ do
     match "pages/**" $ do
         route   $ setRoot `composeRoutes` cleanURL
         compile $ compiler
-            >>= loadAndApplyTemplate "templates/page.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/page.html" pageCtx
+            >>= loadAndApplyTemplate "templates/default.html" pageCtx
             >>= relativizeUrls
 
     match "posts/*" $ do
         route $ postRoute `composeRoutes` cleanURL
         compile $ compiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/post.html" postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -103,6 +103,12 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     field "url" (fmap (maybe empty (dropFileName . toUrl)) . getRoute . itemIdentifier) `mappend`
+    boolField "comments" (const True) `mappend`
+    defaultContext
+
+pageCtx :: Context String
+pageCtx =
+    boolField "comments" (const False) `mappend`
     defaultContext
 
 feedCtx :: Context String
