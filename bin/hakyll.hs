@@ -136,7 +136,7 @@ fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 
 config :: Configuration
 config = defaultConfiguration {
-        deployCommand = "rsync -av _site/ /srv/http/zach.se/public/"
+        deployCommand = "find _site -name '*.html' -print0 | xargs -0 bin/katex.js && rsync -av _site/ /srv/http/zach.se/public/"
     }
 
 feedConfiguration :: FeedConfiguration
