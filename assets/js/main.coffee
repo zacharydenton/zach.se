@@ -16,7 +16,6 @@ class FractalBanner
 
     window.addEventListener "resize", (e) => @resize(e)
     window.addEventListener "orientationchange", (e) => @resize(e)
-    document.addEventListener "mousemove", (e) => @mousemove(e)
     header.addEventListener "click", (e) => @toggleAnimation(e)
 
     @render()
@@ -32,7 +31,7 @@ class FractalBanner
     @gl.compileShader(vertexShader)
 
     fragmentShader = @gl.createShader(@gl.FRAGMENT_SHADER)
-    @gl.shaderSource(fragmentShader, "precision lowp float;uniform float time;uniform vec2 resolution;uniform vec2 mouse;vec3 a(vec3 b){vec4 c=vec4(1.0,2.0/3.0,1.0/3.0,3.0);vec3 d=abs(fract(b.xxx+c.xyz)*6.0-c.www);return b.z*mix(c.xxx,clamp(d-c.xxx,0.0,1.0),b.y);}vec3 e(float f){return vec3(0.02,0.5,0.4)+vec3(0.8,0.3,0.1)*cos(6.28319*(vec3(1.0,2.0,4.0)*f+vec3(0.8,0.4,0.65)));}void main(void){vec2 g=((gl_FragCoord.xy-resolution*0.5)/min(resolution.x,resolution.y))*20.0;float h=0.0;float i=(7.296-0.01*mouse.x*0.2+0.0001*time)*6.28319;float j=cos(i);float k=sin(i);vec2 l=vec2(j,-k);vec2 m=vec2(k,j);vec2 n=vec2(0,1.618);float o=3.516+0.01*mouse.y+0.0001*time;for(int p=0;p<120;p++){float q=dot(g,g);if(q>1.0){q=(1.0)/q;g.x=g.x*q;g.y=g.y*q;}h*=.99;h+=q;g=vec2(dot(g,l),dot(g,m))*o+n;}gl_FragColor=vec4(e(fract(0.01*time+h)),1.0);}")
+    @gl.shaderSource(fragmentShader, "precision lowp float;uniform float time;uniform vec2 resolution;vec3 a(vec3 b){vec4 c=vec4(1.,2./3.,1./3.,3.);vec3 d=abs(fract(b.xxx+c.xyz)*6.-c.www);return b.z*mix(c.xxx,clamp(d-c.xxx,.0,1.),b.y);}vec3 e(float f){return vec3(.02,.5,.4)+vec3(.8,.3,.1)*cos(6.28319*(vec3(1.,2.,4.)*f+vec3(.8,.4,.65)));}void main(void){vec2 g=((gl_FragCoord.xy-resolution*.5)/min(resolution.x,resolution.y))*20.;float h=.0;float i=(7.295+.0001*time)*6.28319;float j=cos(i);float k=sin(i);vec2 l=vec2(j,-k);vec2 m=vec2(k,j);vec2 n=vec2(0,1.618);float o=3.521+.0001*time;for(int p=0;p<120;p++){float q=dot(g,g);if(q>1.){q=1./q;g*=q;}h*=.99;h+=q;g=vec2(dot(g,l),dot(g,m))*o+n;}gl_FragColor=vec4(e(fract(.01*time+h)),1.);}")
     @gl.compileShader(fragmentShader)
 
     @shader = @gl.createProgram()
@@ -47,8 +46,6 @@ class FractalBanner
     @gl.uniform1f(@timeUniform, 0)
     @resolutionUniform = @gl.getUniformLocation(@shader, "resolution")
     @gl.uniform2f(@resolutionUniform, @width, @height)
-    @mouseUniform = @gl.getUniformLocation(@shader, "mouse")
-    @gl.uniform2f(@mouseUniform, 0.5, 0.5)
 
   initQuad: ->
     vertexPosBuffer = @gl.createBuffer()
@@ -67,11 +64,6 @@ class FractalBanner
     @canvas.height = @height
     @gl.uniform2f(@resolutionUniform, @width, @height)
     @gl.viewport(0, 0, @width, @height)
-
-  mousemove: (e) ->
-    canvasX = (e.pageX - @canvas.offsetLeft) * @devicePixelRatio
-    canvasY = (e.pageY - @canvas.offsetTop) * @devicePixelRatio
-    @gl.uniform2f(@mouseUniform, canvasX / @width, 1 - canvasY / @height)
 
   toggleAnimation: ->
     @animating = not @animating
