@@ -47,9 +47,9 @@ generate audio. My first approach was something like this:
 
 ```python
 def sine_wave(frequency=440.0, framerate=44100, amplitude=0.5):
-	if amplitude > 1.0: amplitude = 1.0
+    if amplitude > 1.0: amplitude = 1.0
     if amplitude < 0.0: amplitude = 0.0
-	return (float(amplitude) * math.sin(2.0*math.pi*float(frequency)*(float(i)/float(framerate))) for i in count(0))
+    return (float(amplitude) * math.sin(2.0*math.pi*float(frequency)*(float(i)/float(framerate))) for i in count(0))
 ```
 
 This computes a sine wave of infinite length at the specified frequency,
@@ -99,7 +99,7 @@ As I mentioned earlier, complex sounds can be modeled as combinations of
 pure sine waves. If you're generating a stereo audio file, you can have
 different audio functions in each channel. The way I chose to represent
 this concept is as follows:
-	
+
 ```python
 c1 = (f1, ..., fn)
 c2 = (f1, ..., fn)
@@ -115,7 +115,7 @@ the sound will seem to come from the center of the soundstage.
 
 ```python
 channels = ((sine_wave(440.0),),
-			(sine_wave(440.0),))
+            (sine_wave(440.0),))
 ```
 
 You can also control the location of the sound by altering the amplitude
@@ -124,7 +124,7 @@ slightly left of center:
 
 ```python
 channels = ((sine_wave(440.0, amplitude=0.5),),
-			(sine_wave(440.0, amplitude=0.2),))
+            (sine_wave(440.0, amplitude=0.2),))
 ```
 
 Additionally, you can have more than one function playing at the same
@@ -133,7 +133,7 @@ tone in the right channel, and some white noise in the background:
 
 ```python
 channels = ((sine_wave(200.0, amplitude=0.1), white_noise(amplitude=0.001)),
-			(sine_wave(205.0, amplitude=0.1), white_noise(amplitude=0.001)))
+            (sine_wave(205.0, amplitude=0.1), white_noise(amplitude=0.001)))
 ```
 
 That's a [binaural beat](http://en.wikipedia.org/wiki/Binaural_beats).
@@ -215,7 +215,7 @@ Now, we are going to be creating stereo audio files, so we need to
 consider how `.wav` files represent multiple channels. It turns out
 that `.wav` files look something like this:
 
-	L1R1L2R2L3R3L4R4
+    L1R1L2R2L3R3L4R4
 
 Where `L1` is the first sample in the left channel, `R1` is the first
 sample in the right channel, and so on. In other words, the channels are
@@ -248,7 +248,7 @@ def grouper(n, iterable, fillvalue=None):
 def write_wavefile(filename, samples, nframes=None, nchannels=2, sampwidth=2, framerate=44100, bufsize=2048):
     if nframes is None:
         nframes = -1
-	
+
     w = wave.open(filename, 'w')
     w.setparams((nchannels, sampwidth, framerate, nframes, 'NONE', 'not compressed'))
 
@@ -258,7 +258,7 @@ def write_wavefile(filename, samples, nframes=None, nchannels=2, sampwidth=2, fr
     for chunk in grouper(bufsize, samples):
         frames = ''.join(''.join(struct.pack('h', int(max_amplitude * sample)) for sample in channels) for channels in chunk if channels is not None)
         w.writeframesraw(frames)
-    
+
     w.close()
 
     return filename
@@ -339,7 +339,7 @@ def write_wavefile(filename, samples, nframes=None, nchannels=2, sampwidth=2, fr
     for chunk in grouper(bufsize, samples):
         frames = ''.join(''.join(struct.pack('h', int(max_amplitude * sample)) for sample in channels) for channels in chunk if channels is not None)
         w.writeframesraw(frames)
-    
+
     w.close()
 
     return filename
@@ -352,7 +352,7 @@ def write_pcm(f, samples, sampwidth=2, framerate=44100, bufsize=2048):
     for chunk in grouper(bufsize, samples):
         frames = ''.join(''.join(struct.pack('h', int(max_amplitude * sample)) for sample in channels) for channels in chunk if channels is not None)
         f.write(frames)
-    
+
     f.close()
 
     return filename
@@ -420,7 +420,7 @@ def sbagen_phrase(phrase):
     147.0+4.0/1.27 -> two sine_waves. one 145.0 hz; one 149.0 hz. each at amplitude of 0.0127.
     '''
     if 'pink' in phrase:
-		# pink/40 -> white_noise(amplitude=0.4)
+        # pink/40 -> white_noise(amplitude=0.4)
         amplitude = float(phrase.split('/')[-1]) / 100.0
         return (white_noise(amplitude),
                 white_noise(amplitude))
@@ -474,12 +474,12 @@ def ncycles(iterable, n):
 
 def waves():
     l = int(44100*0.4) # each note lasts 0.4 seconds
-    
+
     return cycle(chain(ncycles(chain(islice(damped_wave(frequency=440.0, amplitude=0.1, length=int(l/4)), l),
                                      islice(damped_wave(frequency=261.63, amplitude=0.1, length=int(l/4)), l),
                                      islice(damped_wave(frequency=329.63, amplitude=0.1, length=int(l/4)), l)), 3),
                        islice(damped_wave(frequency=440.0, amplitude=0.1, length=3*l), 3*l),
-                 
+
                        ncycles(chain(islice(damped_wave(frequency=293.66, amplitude=0.1, length=int(l/4)), l),
                                      islice(damped_wave(frequency=261.63, amplitude=0.1, length=int(l/4)), l),
                                      islice(damped_wave(frequency=293.66, amplitude=0.1, length=int(l/4)), l)), 2),
