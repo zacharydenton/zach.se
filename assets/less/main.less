@@ -1,11 +1,6 @@
 @import "preboot.less";
 @import "highlighting.less";
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   background-color: @body-background;
   .optimize-legibility;
@@ -40,6 +35,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: @headings-font-family;
+  line-height: 1.2;
 }
 
 code, kbd, pre, samp {
@@ -156,7 +152,6 @@ article {
   h1:first-child {
     font-size: @size-huge;
     text-align: center;
-    line-height: 1.2;
   }
 
   hr {
