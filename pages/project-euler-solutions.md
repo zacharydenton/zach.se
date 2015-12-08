@@ -258,7 +258,7 @@ Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2015-12-07 22:16:40" data-updated="true">December 07, 2015</time>
 
 ------
 
