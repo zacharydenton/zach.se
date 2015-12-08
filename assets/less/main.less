@@ -1,18 +1,20 @@
-@import "normalize.less";
 @import "preboot.less";
 @import "highlighting.less";
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: @body-background;
-
-  &.front {
-    background-color: #263238;
-  }
+  .optimize-legibility;
+  .hyphens;
 }
 
 body {
   color: @text-color;
-  font-size: @size-base;
+  font-size: @size-medium;
   font-family: @font-family-base;
   line-height: @line-height-base;
   margin-top: @banner-height;
@@ -28,29 +30,17 @@ body {
 
 a {
   color: @link-color;
+  text-decoration: none;
 
   &:hover {
     color: @link-color-hover;
+    text-decoration: underline;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: @headings-font-family;
-  font-weight: @headings-font-weight;
-  line-height: 1.2;
-  .optimize-legibility;
-
-  a {
-    text-decoration: none;
-  }
 }
-
-h1 { font-size: @size-huge; }
-h2 { font-size: @size-larger; }
-h3 { font-size: @size-large; }
-h4 { font-size: @size-medium; color: lighten(@text-color, 10%); }
-h5 { font-size: @size-base; }
-h6 { font-size: @size-small; }
 
 code, kbd, pre, samp {
   font-family: @font-family-monospace;
@@ -65,13 +55,6 @@ header {
   margin: auto;
   height: @banner-height;
   padding: 0 2*@size-giant;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-
-  @media (max-width: @body-width) {
-    padding: 0 @size-larger;
-  }
 
   @media (max-width: 800px) {
     text-align: center;
@@ -81,11 +64,7 @@ header {
 
   a {
     text-decoration: none;
-    color: @brand-primary;
-
-    &:hover {
-      color: lighten(@brand-primary, 25%);
-    }
+    color: #fffefc;
   }
 
   h1 {
@@ -116,11 +95,6 @@ header {
     font-size: @size-medium;
     font-weight: 900;
     text-transform: uppercase;
-    .optimize-legibility;
-
-    @media (max-width: @body-width) {
-      right: @size-larger;
-    }
 
     @media (max-width: 800px) {
       position: static;
@@ -148,10 +122,6 @@ header {
         padding: 0;
         margin: 0 0.2rem;
         display: inline;
-
-        a:hover {
-          border-bottom: 3px solid lighten(@brand-primary, 25%);
-        }
       }
     }
   }
@@ -180,97 +150,29 @@ body.front {
 }
 
 article {
-  font-size: @size-medium;
-  position: relative;
-  top: @size-huge;
-  max-width: @body-width;
-  word-wrap: break-word;
+  overflow: hidden;
+  max-width: @article-width;
   .center-block;
-  .hyphens;
-  .optimize-legibility;
-
-  @media (max-width: @article-width) {
-    overflow-x: hidden;
-  }
 
   h1:first-child {
+    font-size: @size-huge;
     text-align: center;
-    .hyphens(none);
-    margin-top: 0;
-    margin-bottom: @size-huge;
-
-    + .figure {
-      margin-top: 0;
-    }
-  }
-
-  h2, h3, h4, h5, h6, p, ul, ol, hr, > table {
-    max-width: @article-width;
-    margin: 0 auto;
-    margin-bottom: @size-medium;
-
-    @media(max-width: @body-width) {
-      padding: 0 1rem;
-    }
-  }
-
-  br {
-    display: none;
+    line-height: 1.2;
   }
 
   hr {
     border: 0;
-    height: 3px;
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
-  }
-
-  ul, ol {
-    padding: 0;
-
-    @media (max-width: @body-width) {
-      padding-left: 40px;
-    }
-
-    @media (max-width: @article-width) {
-      list-style-position: inside;
-      padding-left: 1em;
-    }
+    border-top: 1px solid #515b5e;
   }
 
   pre {
-    max-width: @article-width;
-    margin: 0 auto;
-    margin-bottom: @size-medium;
+    font-size: @size-base;
     padding: @size-mini;
-    font-size: @size-medsmall;
-    -webkit-font-smoothing: antialiased;
     overflow-x: auto;
     word-wrap: normal;
-    .box-sizing(border-box);
   }
 
-  .figure {
-    text-align: center;
-    margin: @size-huge 0;
-
-    img {
-      width: 100%;
-      height: auto;
-      max-width: @body-width;
-    }
-
-    .caption {
-      font-size: @size-base;
-    }
-  }
-
-  iframe {
-    margin: @size-huge 0;
-    margin-left: 0.5 * (@body-width - @article-width);
-    max-width: @article-width;
-
-    @media (max-width: @article-width) {
-      margin-left: 0;
-    }
+  figure img {
+    width: 100%;
   }
 }

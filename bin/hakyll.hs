@@ -96,7 +96,8 @@ main = hakyllWith config $ do
 compiler :: Compiler (Item String)
 compiler = pandocCompilerWith defaultHakyllReaderOptions writerOptions where
   writerOptions = defaultHakyllWriterOptions {
-    writerHTMLMathMethod = KaTeX "" ""
+    writerHTMLMathMethod = KaTeX "" "",
+    writerHtml5 = True
   }
 
 postCtx :: Context String
