@@ -24,73 +24,73 @@ Updated: <time datetime="2016-04-19 17:38:03" data-updated="true">April 19, 2016
 
 ## [Project Euler Problem 2 Solution](2/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 17:45:32" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 3 Solution](3/)
 
-<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:01:16" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 4 Solution](4/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:07:07" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 5 Solution](5/)
 
-<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:22:19" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 6 Solution](6/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:25:18" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 7 Solution](7/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:35:12" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 8 Solution](8/)
 
-<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 18:54:52" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 9 Solution](9/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-06-12 13:19:11" data-updated="true">June 12, 2015</time>
+Updated: <time datetime="2016-04-19 19:05:03" data-updated="true">April 19, 2016</time>
 
 ------
 
 ## [Project Euler Problem 10 Solution](10/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 19:12:51" data-updated="true">April 19, 2016</time>
 
 ------
 
@@ -98,7 +98,7 @@ Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 
 
 <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 19:18:41" data-updated="true">April 19, 2016</time>
 
 ------
 
