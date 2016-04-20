@@ -16,9 +16,9 @@ In fact, [this entire website is open source](http://github.com/zacharydenton/za
 
 ## [Project Euler Problem 1 Solution](1/)
 
-<span class="label label-info">C</span> <span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
+<span class="label label-info">C</span> <span class="label label-info">Clojure</span> <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Scheme</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-19 17:38:03" data-updated="true">April 19, 2016</time>
 
 ------
 

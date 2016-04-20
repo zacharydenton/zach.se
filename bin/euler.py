@@ -18,6 +18,7 @@ languages = {
     '.scm': 'Scheme',
     '.go': 'Go',
     '.hs': 'Haskell',
+    '.js': 'JavaScript',
 }
 
 lexers = {
@@ -28,6 +29,7 @@ lexers = {
     '.scm': 'scheme',
     '.go': 'go',
     '.hs': 'haskell',
+    '.js': 'javascript',
 }
 
 interpreters = {
@@ -35,6 +37,7 @@ interpreters = {
     '.rb': 'ruby',
     '.clj': 'clojure',
     '.scm': 'mit-scheme-native --quiet <',
+    '.js': 'node --use-strict',
 }
 
 compilers = {
