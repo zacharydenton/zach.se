@@ -144,9 +144,9 @@ Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 
 
 ## [Project Euler Problem 17 Solution](17/)
 
-<span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-27 21:11:40" data-updated="true">April 27, 2016</time>
 
 ------
 
@@ -200,9 +200,9 @@ Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 
 
 ## [Project Euler Problem 24 Solution](24/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-27 21:41:37" data-updated="true">April 27, 2016</time>
 
 ------
 
