@@ -74,7 +74,7 @@ Updated: <time datetime="2016-04-19 18:35:12" data-updated="true">April 19, 2016
 
 <span class="label label-info">Go</span> <span class="label label-info">Haskell</span> <span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
 
-Updated: <time datetime="2016-04-19 18:54:52" data-updated="true">April 19, 2016</time>
+Updated: <time datetime="2016-04-28 09:32:10" data-updated="true">April 28, 2016</time>
 
 ------
 
