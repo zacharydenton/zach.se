@@ -656,25 +656,25 @@ Updated: <time datetime="2014-05-21 20:59:49" data-updated="true">May 21, 2014</
 
 ## [Project Euler Problem 81 Solution](81/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-28 13:59:58" data-updated="true">April 28, 2016</time>
 
 ------
 
 ## [Project Euler Problem 82 Solution](82/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-28 13:59:07" data-updated="true">April 28, 2016</time>
 
 ------
 
 ## [Project Euler Problem 83 Solution](83/)
 
-<span class="label label-info">Python</span> 
+<span class="label label-info">JavaScript</span> <span class="label label-info">Python</span> 
 
-Updated: <time datetime="2015-09-11 13:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2016-04-28 13:52:22" data-updated="true">April 28, 2016</time>
 
 ------
 
