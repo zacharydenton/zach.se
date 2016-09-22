@@ -1,6 +1,7 @@
 ---
 title: Munchausen Numbers and How to Find Them
 excerpt: An introduction to Munchausen numbers and how to find them with various programming languages.
+math: true
 ---
 
 There are those who would have you believe that [every number is
