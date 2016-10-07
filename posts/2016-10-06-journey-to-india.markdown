@@ -1,5 +1,6 @@
 ---
 title: Journey to India
+excerpt: The story of my trip from San Francisco to Agra.
 ---
 
 It's been over three years since I posted to this blog, but I finally
@@ -26,9 +27,9 @@ e-tourist visa website and was dismayed to learn that you need to apply
 for a visa at least 4 days in advance. Undeterred, I set the entry date
 to 4 days in the future and decided I would spend a couple days in Hong
 Kong (my layover airport) before entering India. To my surprise, less
-than 12 hours after I applied for the visa I received an email that it
-had been granted -- and it was valid for entry as early as the next day!
-I cancelled the extra flight and decided to continue with the original
+than 12 hours after I applied I received an email that the visa had been
+granted---and it was valid for entry as early as the next day! I
+cancelled the extra flight and decided to continue with the original
 plan, albeit hesitantly because I was worried about being deported due
 to not applying for the visa 4 days in advance.
 
@@ -47,9 +48,9 @@ in Delhi. The city is covered in dense smog so you can barely see
 anything, either.
 
 I arrived at immigration feeling nervous about my visa situation.
-Especially with the Deportee Room right behind the immigration officers
--- and a couple worried people inside. Luckily, I passed through without
-issue. A huge sigh of relief.
+Especially with the Deportee Room right behind the immigration
+officers---and a couple worried people waiting inside. Luckily, I
+passed through without issue. A huge sigh of relief.
 
 Once I got out of the airport it was about 12 am. My train to Agra
 departed at 6 am, and to save some money I had decided not to book a
@@ -79,20 +80,20 @@ and the people, too. I'm standing there awestruck by this whole scene
 when an authoritative gentleman approaches me and asks to see my ticket.
 Needless to say, I ignored this guy and proceeded into the station.
 
-...Just kidding. I handed the guy my ticket, and he looks over it and
+...Just kidding. I handed the guy my ticket, and he looks it over and
 explains that my train has been cancelled. What I should do is head over
 to the ticket office (which is in another building, but close by), and
 they'll give me a full refund and help me book another train to Agra. He
 points me in the direction of the ticket office and walks away. I'm
 still standing there dumbfounded and he turns around and says, "OK, I'll
 show you." He leads me away from the station to a taxi, which is when I
-started to realized that things were amiss. The guy explains the
+started to realize that things were amiss. The guy explains the
 situation to the taxi driver and the taxi driver responds with a price
 of 500 rupees (which is what the 30 minute ride from the airport cost).
 The guy says "500, no. It must be 400" and the taxi driver says OK. I
 jump in the cab and once we'd left the station, ask the driver to let me
 out. The driver says "No, very dangerous around here, Hindu-Muslim
-violence in the area." After years of indoctrination as an American I'm
+violence here." After years of indoctrination as an American I'm
 terrified at the mere mention of religious violence, so I decide it's
 better to stay in the taxi and see where I end up. We end up at a travel
 agency a couple km from the train station, and some guy comes out.
@@ -145,7 +146,7 @@ Uber (which again immediately tries to call me for some reason) and
 leave Connaught Place without being abducted or murdered.
 
 The lounge was fantastic, a true oasis in the desert. Free tea, coffee,
-wifi -- exactly what I needed at that point. After booking all of my
+wifi---exactly what I needed at that point. After booking all of my
 accommodations for the rest of the trip, I glance at the clock and
 realize I only have 10 minutes left before my train leaves, so I grab my
 stuff and run over to platform 1. It boggles the mind that there are
@@ -158,7 +159,7 @@ and elsewhere but the scale in India was unprecedented. We passed by
 hundreds of people taking a shit on the train tracks. Most of the
 buildings I saw were falling apart and practically built on top of each
 other, and none of them were fully enclosed. We passed by trains that
-were so crowded, people were literally hanging on to the doors outside
+were so crowded, people were literally hanging onto the doors outside
 of the train. Meanwhile I'm sitting here in the EC car with people
 wearing suits and gold watches working on their MacBooks... the contrast
 was stark for sure.
