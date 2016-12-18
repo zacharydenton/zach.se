@@ -7,7 +7,7 @@ excerpt: The story of my 5 days in Jaipur, India.
 
 The first thing I did when I arrived in Jaipur was go to the 5-star hotel next to the train station, the ITC Rajputana. I walked through the security checkpoint (the guards just waved me through), past the hotel reception, and proceeded to the Jal Mahal restaurant for breakfast. The maitre d' seated me at the head of the largest table in the room, placed a napkin on my lap, and asked if I would like some coffee. Meanwhile other waiters brought silverware and water. I was expecting to pay handsomely for the experience, especially after making 5 trips to the buffet. Well, I was wrong. Grand total: \$10.
 
-My sense of value was further recalibrated when I arrived at my guesthouse, which cost \$4.50 per night--including breakfast. The hostel : 5-star hotel ratio is roughly the same in India as it is in Europe (\$5 : \$100 in India, \$30 : \$600 in Europe), with the difference that it's about 6 times cheaper. In fact, almost everything seems to be about 6 times cheaper in India. The nominal exchange rate is 65 rupees to the dollar, but I found that a better way to think about the real value of money in India is 10 rupees to the dollar. So if you spend 1000 rupees (\$15) in India, you should get about the same value as you would if you spent \$100 in San Francisco.
+My sense of price was further recalibrated when I arrived at my guesthouse, which cost \$4.50 per night---including breakfast. The hostel : 5-star hotel ratio is roughly the same in India as it is in Europe (\$5 : \$100 in India, \$30 : \$600 in Europe), with the difference that it's about 6 times cheaper. In fact, almost everything seems to be about 6 times cheaper in India. The nominal exchange rate is 65 rupees to the dollar, but I found that a better way to think about the real value of money in India is 10 rupees to the dollar. So if you spend 1000 rupees (\$15) in India, you should get about the same value as you would if you spent \$100 in San Francisco.
 
 <figure>
 <iframe src="https://drive.google.com/file/d/1Qrn0WGTg5Lg8NXhEYtKR9P4YhsFlGW1c6Q/preview" width="580" height="326">
@@ -37,7 +37,7 @@ I saw a group of children playing drums in the distance, and when I approached t
 
 ![Traffic jam]
 
-I tried to escape the crowd of beggar children by walking down one of the side alleys. A couple of them tagged along, trying to be my guide in exchange for money. After a while I found myself back on the main road where a pipe had exploded and was spewing water all over the street.
+I tried to escape the crowd of beggar children by walking down one of the side alleys. A couple of them tagged along, trying to be my guide in exchange for money. After a while I found myself back on the main road where a pipe had burst and was spewing water all over the street.
 
 <figure>
 <iframe src="https://drive.google.com/file/d/1VpuWGozMU1Ehl0JU3ld7bVhZR-1xhMhsEg/preview" width="580" height="327">
@@ -47,7 +47,7 @@ Broken water pipe in Jaipur
 </figcaption>
 </figure>
 
-I and about 10 other people stood there for a while, completely mesmerized by the whole scene. The street had practically become a river but people were still driving, motorcycling, biking, and even walking through it.
+I and about 10 other people stood there mesmerized by the scene. The street had practically become a river but people were still driving, motorcycling, biking, and even walking through it.
 
 ![The Pink City]
 
@@ -55,13 +55,13 @@ A while later I decided to venture forth and I'm walking down the street, kind o
 
 ![Walking down to the Johri Bazaar]
 
-We continued to talk about Sweden, and the time he spent living in Germany, and we exchange names (his is Sameer; he pronounces mine as "Jack"). Sameer declares that it's Indian custom to offer guests some chai and a place to sit down. So we walk over to his shop, where his friend Sharukh is sitting, and I pull up a plastic chair and we drink chai and talk for a while. These guys are very charismatic and fun to talk with. Sameer talks about the three ways of life in Jaipur: "the local, the touristic, and the fancy". Sameer is impressed by my visit to Agra (visiting neither the fort nor the Taj Mahal, and just exploring the alleys) and invites me to a home-cooked breakfast tomorrow morning. I'm a bit skeptical about the whole thing but I decide I shouldn't pass on this opportunity. It turns out Sharukh is a tuk-tuk driver and he can drive us around Jaipur tomorrow so I can get a taste of the local life.
+We continued to talk about Sweden, and the time he spent living in Germany, and we exchange names (his is Sameer; he pronounces mine as "Jack"). Sameer declares that it's Indian custom to offer guests some chai and a place to sit down. So we walk over to his shop, where his friend Sharukh is sitting, and I pull up a plastic chair and we drink chai and talk for a while. These guys are very charismatic and fun to talk with. Sameer talks about the three ways of life in Jaipur: "the local, the touristic, and the fancy". Sameer is impressed by my visit to Agra (visiting neither the fort nor the Taj Mahal, and just exploring the alleys) and invites me to enjoy a home-cooked breakfast with them. I'm a bit skeptical about the whole thing but I decide I shouldn't pass on the opportunity. It turns out Sharukh is a tuk-tuk driver and he can drive us around Jaipur tomorrow so I can get a taste of the local life.
 
 ![Breakfast with Sameer and Sharukh]
 
-Sharukh picked me up at the guesthouse the next morning and we drove over to Sameer's shop. Sameer was waiting inside and we talked for a while and drank some chai. Eventually someone arrives with breakfast: some lassi, some chapatis, and some curry. I'm not sure if it was actually home-cooked or not, but either way it was very tasty. We ate it with our hands on the floor, using some newspapers as a table.
+Sharukh picked me up at the guesthouse the next morning and we drove over to Sameer's shop. Sameer was waiting inside and we talked for a while and drank some chai. Eventually someone arrived with breakfast: some lassi, some chapatis, and some curry. I'm not sure if it was actually home-cooked or not, but either way it was very tasty. We ate it with our hands on the floor, using some newspapers as a table.
 
-After breakfast, we set out to see the local way of life in Jaipur. Our first destination was their friend's elephant farm. I thought, "so much for seeing the local way of life", but decided to partake in the elephant activities anyway.
+After breakfast, we set out to see the local way of life in Jaipur. Our first destination was their friend's elephant farm. We sat around talking with the people working at the farm for a while, and eventually one guy asks what I want to do. "You can ride the elephants, feed them, paint them, etc." I thought, so much for seeing the local way of life, but decided to partake in the elephant activities since I didn't really have much choice in the matter.
 
 ![At the elephant farm]
 
@@ -71,17 +71,17 @@ I rode the elephant, fed it, etc. It was a cool experience but too "touristic" f
 
 Then we went to Sameer's family's textile factory and outlet. We looked at the workers doing traditional block printing and carpet weaving, and the person leading me around explained that their big factory was out in the Jaipur countryside. I guess this smaller factory was mostly about enticing tourists to buy stuff. Sameer and Sharukh had shown me a good time at this point so I figured, hmm, it's this guy's family shop (or at least he'll be receiving a commission), so as a way of saying thanks I did decide to buy a couple things. I had them shipped back home, and for about a month there was zero communication from the shop. Then one day I received an email stating that "We sent your packet & this time that is in DELHI custom, As it clear from there we will give you tracking no. You don't worry about that." Two weeks later the package arrived!
 
-After that we drove over to a hotel restaurant for a late lunch where the only other people were the waiters and a tourist accompanied by a tuk-tuk driver. I felt like that was a very bad sign, but the lunch turned out to be excellent. To my great surprise, Sameer and Sharukh footed the bill. We drove back into the Pink City with the sun setting behind us and the sound of drums ahead of us.
+After that we drove over to a hotel restaurant for a late lunch where the only other people were the waiters and a tourist accompanied by a tuk-tuk driver. I felt like that was a bad sign, but the lunch turned out to be excellent. To my great surprise, Sameer and Sharukh footed the bill. We drove back into the Pink City with the sun setting behind us and the sound of drums ahead of us.
 
 ![Festival in the Pink City]
 
 There was a Muslim festival going on in the Pink City and we decided to check it out. We parked the tuk-tuk behind some cows and tractors and ventured into the thick of it. I had never seen a crowd like this in my life. The whole street was absolutely packed with revelers, but there wasn't a drop of alcohol in sight. There were no women in sight, either. Then I realized they were observing from the balconies above the street.
 
-The crowd had organized itself into circles spaced at regular intervals. In the middle of each circle was a group of people chanting and beating these massive bass drums. We slowly inched our way through the crowd and stopped at one of the circles, where in addition to the drums, there were people mock-dueling with real swords in time with the beat. They looked like they were actually fighting--they had this fierce look in their eyes and didn't seem to be holding back. I looked to my left to find a kid delicately unzipping one of the pockets on my backpack, and he immediately withdrew his hand while an adult next to him gave me an apologetic look.
+The crowd had organized itself into circles spaced at regular intervals. In the middle of each circle was a group of people chanting and beating these massive bass drums. We slowly inched our way through the crowd and stopped at one of the circles, where in addition to the drums, there were people mock-dueling with real swords in time with the beat. They looked like they were actually fighting---they had this fierce look in their eyes and didn't seem to be holding back. I looked to my left to find a kid delicately unzipping one of the pockets on my backpack, and he immediately withdrew his hand while an adult next to him gave me an apologetic look.
 
 I was standing at the edge of the circle watching the duel in awe, when all of a sudden they spot me. The smiling members of the crowd urge me to go into the circle. I'm laughing and telling them there's no way I'm going to partake in the swordfight, but then they stop smiling. There were about 20 people all demanding that I enter the circle and I could tell there was no way I was getting out of there without participating. Luckily one guy emerged with sticks instead of swords and I entered the circle to duel him. We started swinging at each other, timing the strikes so that we made contact in time with the drummers. The crowd roared with approval. I left the circle walking a bit taller with a big smile after that.
 
-Earlier in the day I had told Sharukh that I enjoy classical Indian music (sitar, tabla, etc.) and he said he knew of a place that had live Indian music. So after the festival we drove over there and drank a couple beers and talked. The place was all out of Kingfisher so we had to drink Tuborg. Well, Tuborg in India is even worse than Tuborg in Europe. It's brewed somewhere in India and tastes truly foul. Tap water in India is totally unfit for human consumption and I doubt they're using purified water at the brewery.
+Earlier in the day I had told Sharukh that I enjoy classical Indian music (sitar, tabla, etc.) and he said he knew of a place that had live Indian music. So after the festival we drove over there and drank a couple beers and talked. The place was all out of Kingfisher so we had to drink Tuborg. Well, Tuborg in India is even worse than it is in Europe. It's brewed somewhere in India and tastes truly foul. Tap water in India is totally unfit for human consumption and I doubt they're using purified water at the brewery.
 
 ![View from the Amber Fort]
 
@@ -89,7 +89,7 @@ The next day Sharukh drove me to the Amber Fort, which is the main tourist attra
 
 ![Crowd on the way to the Amber Fort]
 
-I bypassed the Amber Palace portion of the fort, which costs money to enter, and started walking up the mountain to see the two other forts that had been built nearby. There was a group of around 10 Indian tourists walking on the path ahead of me. Eventually I caught up with them and I said hello. They said they want to take selfies with me. Again I made the mistake of thinking this would be a single group photo. After taking 10 selfies, we continued walking and joking around together. Every time we came to a scenic viewpoint, another round of 10 selfies ensued. Somewhere out there there's about 50 photos of me from that hike.
+I bypassed the Amber Palace portion of the fort, which costs money to enter, and started walking up the mountain to see the two other forts that had been built nearby. There was a group of around 10 Indian tourists walking on the path ahead of me. Eventually I caught up with them and I said hello. They said they want a photo with me. Again I made the mistake of thinking this would be a single group photo. After taking 10 selfies, we continued walking and joking around together. Every time we came to a scenic viewpoint, another round of 10 selfies ensued. Somewhere out there there's about 50 photos of me from that hike.
 
 ![Fellow travelers]
 
@@ -109,7 +109,7 @@ After that Sameer said, "I know you like food, I know a place where you can see 
 
 We drove back to Sameer's shop where we drank some more chai and they were talking about taking me to see a guru who could tell you things about yourself that would blow your mind, and who had once lived in Vancouver. I was weary of these "touristic" experiences at this point and told them I wasn't interested in seeing the guru. In response, Sameer asked for a photo of my receipt at the textile shop because "It's my dad's business, and they work for us...". Hopefully he gets a good commission.
 
-I have mixed emotions about the whole experience. On the one hand, they did show me a great time and things I wouldn't otherwise have experienced, and it was fun to hang out with locals my age. On the other hand, it's upsetting that they weren't forthright about their motives. On the third hand, I'm impressed by their charisma and guile, and learned a lot from them. I think they could earn more in Bollywood than they do in Jaipur.
+I have mixed emotions about the whole experience. First of all, they did show me a great time and things I wouldn't otherwise have experienced, and it was fun to hang out with locals my age. On the other hand, it's upsetting that they were never forthright about their motives. At the same time, I'm impressed by their charisma and guile, and learned a lot from them. And lastly, the amounts of money involved are insignificant to me but probably significant to them. Although I do think these guys would earn more in Bollywood than they do in Jaipur.
 
 ![The Royal Gaitor]
 
