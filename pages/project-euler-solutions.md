@@ -490,7 +490,7 @@ Updated: <time datetime="2015-09-11 19:43:34" data-updated="true">September 11, 
 
 <span class="label label-info">Haskell</span> 
 
-Updated: <time datetime="2014-05-19 21:11:26" data-updated="true">May 19, 2014</time>
+Updated: <time datetime="2017-02-22 20:06:21" data-updated="true">February 22, 2017</time>
 
 ------
 
