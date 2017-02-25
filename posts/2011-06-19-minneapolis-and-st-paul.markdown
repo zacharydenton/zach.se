@@ -1,6 +1,7 @@
 ---
 title: Minneapolis and St. Paul
 excerpt: I paid a visit to some distant relatives in Minnesota.
+tags: travel
 ---
 
 I was quite unlucky with my journey on the Empire Builder. The train was

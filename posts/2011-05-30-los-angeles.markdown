@@ -1,6 +1,7 @@
 ---
 title: Los Angeles
 excerpt: After the Grand Canyon, I continued on to Los Angeles.
+tags: travel
 ---
 
 After the Grand Canyon, I continued on to Los Angeles. I took the

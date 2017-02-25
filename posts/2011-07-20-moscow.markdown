@@ -1,6 +1,7 @@
 ---
 title: Moscow
 excerpt: Exploring the Red Square, the Kremlin, and more.
+tags: travel
 ---
 
 ![Statue of Dostoyevsky in front of the Russian State Library](https://lh6.googleusercontent.com/-oBPwVyHRabo/TgOPqsUQaZI/AAAAAAAAYmw/QxSp3u1fG8I/s1000/IMG_2913.JPG)

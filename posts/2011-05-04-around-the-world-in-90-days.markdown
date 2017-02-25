@@ -1,6 +1,7 @@
 ---
 title: Around the World in 90 Days
 excerpt: I circumnavigated the globe in the summer of 2011.
+tags: travel
 ---
 
 Right now I'm in the middle of a trip around the world. The route I'm

@@ -1,6 +1,7 @@
 ---
 title: The Grand Canyon
 excerpt: Seeing the Grand Canyon for the first time.
+tags: travel
 ---
 
 ![Bright Angel Trail](http://cdn.zacharydenton.com/photos/grand-canyon/bright-angel-trail.jpg)

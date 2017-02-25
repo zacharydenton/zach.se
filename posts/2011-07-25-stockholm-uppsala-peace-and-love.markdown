@@ -1,6 +1,7 @@
 ---
 title: Stockholm, Uppsala, Peace and Love
 excerpt: In Sweden, I visited family and went to Peace and Love, an utterly insane week-long music festival.
+tags: travel
 ---
 
 ![Bob Dylan at Peace and Love 2011](https://lh3.googleusercontent.com/-6xfgs578vHU/Thg9D19zHcI/AAAAAAAAZY8/pdf1WLoEHpA/s1000/IMG_3101.JPG)

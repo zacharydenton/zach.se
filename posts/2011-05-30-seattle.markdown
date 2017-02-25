@@ -1,6 +1,7 @@
 ---
 title: Seattle
 excerpt: I had a great time in Seattle.
+tags: travel
 ---
 
 ![The original Starbucks](https://lh3.googleusercontent.com/-pZMo8SOq-Pc/TgN1iIeHL1I/AAAAAAAAXd0/uXyR0qbO4pA/s1000/IMG_2541.JPG)

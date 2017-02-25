@@ -1,6 +1,7 @@
 ---
 title: Boston and Cambridge
 excerpt: I made a major detour to Boston to see The Feelies in concert.
+tags: travel
 ---
 
 ![The Feelies](http://cdn.zacharydenton.com/photos/boston-and-cambridge/the-feelies.jpg)

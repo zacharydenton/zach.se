@@ -1,6 +1,7 @@
 ---
 title: Agra
 excerpt: The story of my two day trip to Agra.
+tags: travel
 ---
 
 ![Agra: it's a dirty place]
