@@ -42,7 +42,9 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" pageCtx
             >>= relativizeUrls
 
-    match "posts/*" $ do
+    categories <- buildCategories allPostsPattern (fromCapture "categories/*.html")
+
+    match allPostsPattern $ do
         route $ postRoute `composeRoutes` cleanURL
         compile $ compiler
             >>= loadAndApplyTemplate "templates/post.html" postCtx
@@ -52,7 +54,7 @@ main = hakyllWith config $ do
     create ["archives.html"] $ do
         route cleanURL
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll postPattern
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives" `mappend`
@@ -64,11 +66,26 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["travel.html"] $ do
+        route cleanURL
+        compile $ do
+            posts <- recentFirst =<< loadAll "posts/travel/*"
+            let travelCtx =
+                    listField "posts" postCtx (return posts) `mappend`
+                    constField "title" "Travel" `mappend`
+                    constField "excerpt" "Travel stories and photos." `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/archive.html" travelCtx
+                >>= loadAndApplyTemplate "templates/default.html" travelCtx
+                >>= relativizeUrls
+
 
     create ["index.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll postPattern
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "notitle" "yes" `mappend`
@@ -84,7 +101,7 @@ main = hakyllWith config $ do
     create ["rss.xml"] $ do
         route idRoute
         compile $
-            loadAll "posts/*"
+            loadAll postPattern
                 >>= fmap (take 10) . recentFirst
                 >>= renderAtom feedConfiguration feedCtx
 
@@ -120,13 +137,25 @@ renderKaTeX :: Item String -> Compiler (Item String)
 renderKaTeX = withItemBody (unixFilter "bin/katex.js" [])
 
 postRoute :: Routes
-postRoute = customRoute $ drop 11 . stripTopDir
+postRoute = customRoute $ removeDate . basename
+
+postPattern :: Pattern
+postPattern = "posts/*"
+
+allPostsPattern :: Pattern
+allPostsPattern = "posts/**"
 
 setRoot :: Routes
 setRoot = customRoute stripTopDir
 
+removeDate :: FilePath -> FilePath
+removeDate = drop 11
+
 stripTopDir :: Identifier -> FilePath
 stripTopDir = joinPath . tail . splitPath . toFilePath
+
+basename :: Identifier -> FilePath
+basename = last . splitPath . toFilePath
 
 cleanURL :: Routes
 cleanURL = customRoute fileToDirectory

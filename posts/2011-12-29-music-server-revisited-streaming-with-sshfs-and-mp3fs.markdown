@@ -1,5 +1,5 @@
 ---
-title: Music Server Revisited: Streaming with sshfs and mp3fs
+title: "Music Server Revisited: Streaming with sshfs and mp3fs"
 excerpt: Access a remote music collection seamlessly with user-space filesystems.
 ---
 
