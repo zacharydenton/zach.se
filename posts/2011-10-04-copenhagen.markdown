@@ -1,7 +1,6 @@
 ---
 title: Copenhagen
 excerpt: A brief visit to Copenhagen.
-tags: travel
 ---
 
 My visit to Copenhagen was relatively uneventful. The main thing I did

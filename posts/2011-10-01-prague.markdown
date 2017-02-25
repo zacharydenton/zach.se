@@ -1,7 +1,6 @@
 ---
 title: Prague
 excerpt: Pictures and stories from Prague.
-tags: travel
 ---
 
 ![Prague Clock

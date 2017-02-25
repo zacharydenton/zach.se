@@ -1,7 +1,6 @@
 ---
 title: Vienna
 excerpt: Vienna is now among my favorite European cities.
-tags: travel
 ---
 
 ![Cafe

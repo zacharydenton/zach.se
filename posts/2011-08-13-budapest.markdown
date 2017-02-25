@@ -1,7 +1,6 @@
 ---
 title: Budapest
 excerpt: My adventures in Budapest.
-tags: travel
 ---
 
 ![Sign in Budapest](https://lh4.googleusercontent.com/-FJC4mpZbFpU/TkV9eE3-5UI/AAAAAAAAbhg/hVMUM4L7-PE/s1000/IMG_3521.JPG)

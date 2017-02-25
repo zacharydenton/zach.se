@@ -1,7 +1,6 @@
 ---
 title: 6 Projects to Get Started in DIY
 excerpt: Six of my favorite beginner DIY projects.
-tags: hidden
 ---
 
 One of my favorite past-times is building things using instructions

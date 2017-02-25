@@ -1,7 +1,6 @@
 ---
 title: Journey to India
 excerpt: The story of my trip from San Francisco to Agra.
-tags: travel
 ---
 
 It's been over three years since I posted to this blog, but I finally

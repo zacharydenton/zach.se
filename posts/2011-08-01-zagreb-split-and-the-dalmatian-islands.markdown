@@ -1,7 +1,6 @@
 ---
 title: Zagreb, Split, and the Dalmatian Islands
 excerpt: A great week in Croatia.
-tags: travel
 ---
 
 ![Plenty of nude beaches in Croatia.](https://lh5.googleusercontent.com/-nHmSFX6CrRI/TiW5GR6WOAI/AAAAAAAAZ_I/XJ6o8eq7k1A/s1000/IMG_3276.JPG)

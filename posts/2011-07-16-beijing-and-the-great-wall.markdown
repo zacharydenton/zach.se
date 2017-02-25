@@ -1,7 +1,6 @@
 ---
 title: Beijing and the Great Wall
 excerpt: An amazing experience. China was the best part of the trip.
-tags: travel
 ---
 
 ![Inscribed bamboo in Beihei Park](https://lh3.googleusercontent.com/-M88iZFk67_k/TgODQ9FcsiI/AAAAAAAAX8U/XIgQ9KOPpnU/s1000/IMG_2689.JPG)

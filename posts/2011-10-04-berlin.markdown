@@ -1,7 +1,6 @@
 ---
 title: Berlin
 excerpt: A great time in Berlin, especially in Kreuzberg.
-tags: travel
 ---
 
 Immediately after arriving at the Berlin Hauptbahnhof, I went to the

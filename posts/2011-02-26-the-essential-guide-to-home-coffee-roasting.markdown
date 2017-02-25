@@ -1,7 +1,6 @@
 ---
 title: The Essential Guide to Home Coffee Roasting
 excerpt: An introduction to the fine craft of coffee roasting.
-tags: hidden
 ---
 
 Every once in a while I come across a DIY project that is both cheaper

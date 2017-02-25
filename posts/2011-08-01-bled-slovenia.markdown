@@ -1,7 +1,6 @@
 ---
 title: Bled, Slovenia
 excerpt: A few days in the vicinity of the beautiful Lake Bled.
-tags: travel
 ---
 
 When I arrived in Bled, I set out to find a hostel. I ended up finding a

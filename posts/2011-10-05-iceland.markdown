@@ -1,7 +1,6 @@
 ---
 title: Iceland
 excerpt: I spent the final week of my trip exploring Iceland.
-tags: travel
 ---
 
 ![Knitting on a tree in

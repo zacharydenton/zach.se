@@ -1,7 +1,6 @@
 ---
 title: Best of 2012
 excerpt: Wherein I list the best books, movies, music, and websites of 2012.
-tags: hidden
 ---
 
 It's been a great year. Here's a list of the best books, movies, albums,

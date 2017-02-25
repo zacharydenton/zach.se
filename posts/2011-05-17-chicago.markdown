@@ -1,7 +1,6 @@
 ---
 title: Chicago
 excerpt: Wild times in the Windy City.
-tags: travel
 ---
 
 ![Downtown Chicago](http://cdn.zacharydenton.com/photos/chicago/downtown-chicago.jpg)

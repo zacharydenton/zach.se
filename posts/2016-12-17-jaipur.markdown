@@ -1,7 +1,6 @@
 ---
 title: Jaipur
 excerpt: The story of my 5 days in Jaipur, India.
-tags: travel
 ---
 
 ![View from the Jaigarh Fort in Jaipur]
