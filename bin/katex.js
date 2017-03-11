@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var fs = require('fs');
-var katex = require('/home/zach/src/katex/');
+var katex = require('katex');
 var cheerio = require('cheerio');
 var input = '';
 
