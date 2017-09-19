@@ -7,6 +7,16 @@
         "key": "Cache-Control",
         "value": "max-age=2628000, public"
       }]
+    }],
+    "redirects": [{
+      "source": "/wavebender",
+      "destination": "https://github.com/zacharydenton/wavebender",
+      "type": 301
+    },
+    {
+      "source": "/noisejs",
+      "destination": "https://github.com/zacharydenton/noise.js",
+      "type": 301
     }]
   }
 }
