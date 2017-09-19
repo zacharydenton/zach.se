@@ -14,6 +14,21 @@
       "type": 301
     },
     {
+      "source": "/coursepicker",
+      "destination": "https://github.com/DartmouthHackerClub/coursetown",
+      "type": 301
+    },
+    {
+      "source": "/mandelbro",
+      "destination": "https://github.com/zacharydenton/mandelbro",
+      "type": 301
+    },
+    {
+      "source": "/strindberg",
+      "destination": "https://github.com/zacharydenton/strindberg",
+      "type": 301
+    },
+    {
       "source": "/noisejs",
       "destination": "https://github.com/zacharydenton/noise.js",
       "type": 301
