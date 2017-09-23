@@ -33,7 +33,7 @@ main = hakyllWith config $ do
             >>= withItemBody
                 (unixFilter "coffee" ["--stdio", "--compile"])
             >>= withItemBody
-                (unixFilter "uglifyjs" ["--compress", "--mangle", "-"])
+                (unixFilter "uglifyjs" ["--compress", "--mangle"])
 
     match "pages/**" $ do
         route   $ setRoot `composeRoutes` cleanURL
