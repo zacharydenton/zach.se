@@ -27,11 +27,9 @@ main = hakyllWith config $ do
             >>= withItemBody 
                 (unixFilter "lessc" ["--clean-css=--s0", "--include-path=assets/less", "-"])
 
-    match "assets/**.coffee" $ do
-        route $ setRoot `composeRoutes` setExtension "js"
+    match "assets/**.js" $ do
+        route $ setRoot
         compile $ getResourceString
-            >>= withItemBody
-                (unixFilter "coffee" ["--stdio", "--compile"])
             >>= withItemBody
                 (unixFilter "uglifyjs" ["--compress", "--mangle"])
 

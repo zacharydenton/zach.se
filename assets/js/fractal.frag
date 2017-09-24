@@ -22,7 +22,7 @@ void main(void) {
   vec2 l = vec2(j, i);
   vec2 m = vec2(0, 1.618);
   float n = 3.521 + .0001 * time;
-  for (int o = 0; o < 120; o++) {
+  for (int o = 0; o < 800; o++) {
     float p = dot(e, e);
     if (p > 1.) {
       p = 1. / p;
