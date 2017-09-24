@@ -30,7 +30,7 @@
         var canvas = document.createElement("canvas")
         canvas.width = canvas.height = size
         canvas.className = "circle fractal"
-        fragment.append(canvas)
+        fragment.appendChild(canvas)
 
         var gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl")
         if (gl == null) return
