@@ -78,7 +78,7 @@ code, kbd, pre, samp {
   margin: 0;
   padding: 0;
   list-style: none;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1.8;
@@ -104,18 +104,17 @@ code, kbd, pre, samp {
   background: #fff;
   opacity: 0.5;
   position: absolute;
-  left: -10vw;
   right: 0;
 }
 
 .space-container {
   overflow: hidden;
   position: absolute;
-  top: 120px;
-  left: 10vw;
-  right: 10vw;
+  top: 140px;
+  left: 7.5vw;
+  right: 7.5vw;
   bottom: 10vh;
-  transform: rotate(3deg) skew(4deg);
+  transform: rotate(-3deg) skew(4deg);
 }
 
 .space {
@@ -126,11 +125,11 @@ code, kbd, pre, samp {
 
 @keyframes rotate {
   from {
-    transform: rotate(350deg);
+    transform: rotate(370deg);
   }
 
   to {
-    transform: rotate(330deg);
+    transform: rotate(350deg);
   }
 }
 
@@ -140,11 +139,11 @@ code, kbd, pre, samp {
   width: 20vh;
   height: 20vh;
   border-radius: 10vh;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.3);
   position: absolute;
   animation: drift 30s infinite ease;
-  top: 35vh;
-  right: 33vw;
+  top: 31vh;
+  right: 29vw;
   animation-direction: alternate;
     filter: blur(5px);
 
@@ -152,10 +151,10 @@ code, kbd, pre, samp {
     border-radius: 15vh;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     top: auto;
     bottom: 19vh;
-    right: 42vw;
+    right: 52vw;
     width: 15vh;
     height: 30vh;
     animation-name: dark-drift;
@@ -166,8 +165,8 @@ code, kbd, pre, samp {
     opacity: 0.95;
     width: 10vh;
     top: auto;
-    bottom: 34vh;
-    right: 21vw;
+    bottom: 29vh;
+    right: 28vw;
     border: 2px solid #fff;
     box-shadow: 0 0 10vh #fff;
     background: #fff;
@@ -180,7 +179,7 @@ code, kbd, pre, samp {
 
 @keyframes drift {
   from {
-    transform: skew(2deg) translate(0, 0);
+    transform: skew(4deg) translate(0, 0);
   }
 
   to {
@@ -194,13 +193,13 @@ code, kbd, pre, samp {
   }
 
   to {
-    transform: skew(2deg) translate(-4vw, 6vh);
+    transform: skew(20deg) translate(-1vw, 2vh);
   }
 }
 
 @keyframes fractal-drift {
   from {
-    transform: skew(7deg) rotate(0deg);
+    transform: skew(17deg) rotate(0deg);
   }
 
   to {
