@@ -1,7 +1,8 @@
-<article>
-  <h2 class="title"><a href=".">$title$</a></h2>
-
-  $body$
-
-  $partial("templates/comments.html")$
-</article>
+<h1 class="page-title $if(math)$post$endif$">
+    <a class="page-title-link" href=".">$title$</a>
+</h1>
+<section class="page-contents">
+    <article>
+        $body$
+    </article>
+</section>

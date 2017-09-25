@@ -25,7 +25,7 @@ main = hakyllWith config $ do
         compile $ loadBody "assets/less/main.less"
             >>= makeItem
             >>= withItemBody 
-                (unixFilter "lessc" ["--clean-css=--s0", "--include-path=assets/less", "-"])
+                (unixFilter "lessc" ["--clean-css=-s0", "--include-path=assets/less", "-"])
 
     match "assets/**.js" $ do
         route $ setRoot
@@ -55,7 +55,7 @@ main = hakyllWith config $ do
             posts <- recentFirst =<< loadAll postPattern
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives" `mappend`
+                    constField "title" "Blog" `mappend`
                     constField "excerpt" "All posts by Zach Denton." `mappend`
                     defaultContext
 
@@ -87,7 +87,7 @@ main = hakyllWith config $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "notitle" "yes" `mappend`
-                    constField "bodyclass" "front" `mappend`
+                    constField "front" "yes" `mappend`
                     constField "excerpt" "On life, the universe, and everything." `mappend`
                     defaultContext
 

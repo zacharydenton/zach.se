@@ -72,15 +72,11 @@
         })(0)
     }
     
-    function createSpace() {
+    ;(function createSpace() {
         var fragment = document.createDocumentFragment()
         createLines(fragment)
         createCircles(fragment)
         createFractal(fragment)
         document.body.appendChild(fragment)
-    }
-
-    if (document.body.classList.contains("front")) {
-        createSpace()
-    }
+    })()
 })();
