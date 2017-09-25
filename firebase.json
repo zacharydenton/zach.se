@@ -3,10 +3,16 @@
     "public": "_site",
     "headers": [{
       "source": "**",
-      "headers": [{
-        "key": "Cache-Control",
-        "value": "max-age=2628000, public"
-      }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=2628000, public"
+        },
+        {
+          "key": "Link",
+          "value":  "</css/main.css>;rel=preload;as=style"
+        }
+      ]
     }],
     "redirects": [{
       "source": "/wavebender",
