@@ -1,5 +1,4 @@
 @import "preboot.less";
-@import "highlighting.less";
 
 @phi: 1.6180339887498948482;
 @scale-up-5: 1em * pow(@phi, 5/2);
@@ -65,22 +64,52 @@ hr {
   border-top: 1px solid rgba(20, 20, 20, 0.2);
 }
 
-pre {
+@background: #272822;
+@foreground: #e2e3df;
+@comment: #75715e;
+@string: #f4bf75;
+@number: #f92672;
+@keyword: #caf200;
+@other: #66d9ef;
+@datatype: #f92672;
+@error: #f4bf75;
+
+code, kbd, pre, samp {
+  font-family: @font-family-monospace;
+  hyphens: none;
+}
+
+code, kbd, pre, samp {
   font-size: @scale-down-1;
-  padding: @scale-down-2;
-  overflow-x: auto;
+}
+
+pre {
+  padding: @scale-down-1 1em;
   word-wrap: normal;
+  background: @background;
+  color: @foreground;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 3px;
+  overflow-x: auto;
+
+  code {
+    font-size: 1em;
+  }
+
+  .cf, .kw, .im, .bu { color: @keyword; }
+  .dt { color: @datatype; }
+  .dv, .bn, .fl { color: @number; }
+  .ch, .st { color: @string; }
+  .co { color: @comment; }
+  .ot, .op { color: @other; }
+  .fu { color: @keyword; }
+  .al, .er { color: @error; }
 }
 
 figure {
   img, iframe {
     width: 100%;
   }
-}
-
-code, kbd, pre, samp {
-  font-family: @font-family-monospace;
-  hyphens: none;
 }
 
 .site-header {
