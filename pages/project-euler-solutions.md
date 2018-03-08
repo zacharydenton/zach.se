@@ -104,17 +104,17 @@ Updated: <time datetime="2018-03-07 14:25:03" data-updated="true">March 07, 2018
 
 ## [Project Euler Problem 12 Solution](12/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-08 08:00:22" data-updated="true">March 08, 2018</time>
 
 ------
 
 ## [Project Euler Problem 13 Solution](13/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-08 08:17:10" data-updated="true">March 08, 2018</time>
 
 ------
 
