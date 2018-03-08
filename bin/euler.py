@@ -39,7 +39,7 @@ interpreters = {
     '.rb': 'ruby',
     '.clj': 'clojure',
     '.scm': 'mit-scheme-native --quiet <',
-    '.js': 'node --use-strict --harmony-destructuring',
+    '.js': 'node --use-strict',
 }
 
 compilers = {
