@@ -19,6 +19,7 @@ languages = {
     '.go': 'Go',
     '.hs': 'Haskell',
     '.js': 'JavaScript',
+    '.rs': 'Rust',
 }
 
 lexers = {
@@ -30,6 +31,7 @@ lexers = {
     '.go': 'go',
     '.hs': 'haskell',
     '.js': 'javascript',
+    '.rs': 'rust',
 }
 
 interpreters = {
@@ -44,6 +46,7 @@ compilers = {
     '.c': 'gcc -march=native -Ofast -std=c11 -o a.out',
     '.hs': 'ghc -O2 -o a.out -outputdir /tmp',
     '.go': 'go build -o a.out',
+    '.rs': 'rustc -C target-cpu=native -C opt-level=3 -o a.out',
 }
 
 post_template = Template('''\
