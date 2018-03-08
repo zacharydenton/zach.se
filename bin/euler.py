@@ -38,7 +38,7 @@ interpreters = {
     '.py': 'python3',
     '.rb': 'ruby',
     '.clj': 'clojure',
-    '.scm': 'mit-scheme-native --quiet <',
+    '.scm': 'mit-scheme --quiet <',
     '.js': 'node --use-strict',
 }
 
