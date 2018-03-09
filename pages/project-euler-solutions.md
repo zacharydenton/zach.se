@@ -152,9 +152,9 @@ Updated: <time datetime="2016-04-28 00:11:40" data-updated="true">April 28, 2016
 
 ## [Project Euler Problem 18 Solution](18/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 16:15:16" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-09 10:44:05" data-updated="true">March 09, 2018</time>
 
 ------
 
@@ -168,17 +168,17 @@ Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 
 
 ## [Project Euler Problem 20 Solution](20/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2012-05-02 15:35:08" data-updated="true">May 02, 2012</time>
+Updated: <time datetime="2018-03-09 11:31:50" data-updated="true">March 09, 2018</time>
 
 ------
 
 ## [Project Euler Problem 21 Solution](21/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2014-05-16 07:32:08" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2018-03-09 11:49:18" data-updated="true">March 09, 2018</time>
 
 ------
 
