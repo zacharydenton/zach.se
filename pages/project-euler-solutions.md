@@ -208,41 +208,41 @@ Updated: <time datetime="2018-03-09 15:24:47" data-updated="true">March 09, 2018
 
 ## [Project Euler Problem 25 Solution](25/)
 
-<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Clojure</span> <span class="label label-info">Haskell</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2014-05-16 07:32:08" data-updated="true">May 16, 2014</time>
+Updated: <time datetime="2018-03-09 21:29:56" data-updated="true">March 09, 2018</time>
 
 ------
 
 ## [Project Euler Problem 26 Solution](26/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-09 21:29:56" data-updated="true">March 09, 2018</time>
 
 ------
 
 ## [Project Euler Problem 27 Solution](27/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-09 22:05:36" data-updated="true">March 09, 2018</time>
 
 ------
 
 ## [Project Euler Problem 28 Solution](28/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-09 22:49:06" data-updated="true">March 09, 2018</time>
 
 ------
 
 ## [Project Euler Problem 29 Solution](29/)
 
-<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> 
+<span class="label label-info">Haskell</span> <span class="label label-info">Python</span> <span class="label label-info">Ruby</span> <span class="label label-info">Rust</span> 
 
-Updated: <time datetime="2015-09-11 22:43:34" data-updated="true">September 11, 2015</time>
+Updated: <time datetime="2018-03-10 07:06:52" data-updated="true">March 10, 2018</time>
 
 ------
 
