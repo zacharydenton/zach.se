@@ -6,6 +6,8 @@ cabal-version:      >= 1.10
 executable site
   main-is:          bin/hakyll.hs
   build-depends:    base == 4.*
+                  , filepath == 1.4.*
                   , hakyll == 4.12.*
+                  , pandoc == 2.1.*
   ghc-options:      -threaded
   default-language: Haskell2010

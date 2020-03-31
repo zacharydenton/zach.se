@@ -10,6 +10,7 @@ function render(html) {
     var $el = $(this);
     if ($el.children().length == 0) {
       var content = $el.text();
+      content = content.substring(2, content.length - 2);
       var math = katex.renderToString(content, {displayMode: $el.is('.display')});
       $el.html(math);
     }

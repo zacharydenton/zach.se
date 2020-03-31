@@ -11,3 +11,6 @@ _cache
 _site
 _deploy
 *.swp
+dist-newstyle
+stack.yaml.lock
+package-lock.json
