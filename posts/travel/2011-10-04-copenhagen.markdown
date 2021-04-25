@@ -1,6 +1,7 @@
 ---
 title: Copenhagen
 excerpt: A brief visit to Copenhagen.
+noindex: true
 ---
 
 My visit to Copenhagen was relatively uneventful. The main thing I did

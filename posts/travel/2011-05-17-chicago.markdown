@@ -1,6 +1,7 @@
 ---
 title: Chicago
 excerpt: Wild times in the Windy City.
+noindex: true
 ---
 
 ![Downtown Chicago](http://cdn.zacharydenton.com/photos/chicago/downtown-chicago.jpg)

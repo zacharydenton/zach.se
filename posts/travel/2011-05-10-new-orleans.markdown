@@ -1,6 +1,7 @@
 ---
 title: New Orleans
 excerpt: Jazz Fest, great food, and good times in New Orleans.
+noindex: true
 ---
 
 ![New Orleans streetcar](https://lh5.googleusercontent.com/-vL-Bt-kpqCc/Tcig0ITQFgI/AAAAAAAAXMc/GTvnp8zWN-M/s1000/IMG_2018.JPG)

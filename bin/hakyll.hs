@@ -72,6 +72,7 @@ main = hakyllWith config $ do
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Travel" `mappend`
                     constField "excerpt" "Travel stories and photos." `mappend`
+                    constField "noindex" "yes" `mappend`
                     defaultContext
 
             makeItem ""

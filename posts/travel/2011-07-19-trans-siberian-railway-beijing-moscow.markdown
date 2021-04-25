@@ -1,6 +1,7 @@
 ---
 title: The Trans-Siberian Railway, Beijing-Moscow
 excerpt: I took the Trans-Siberian Railway from Beijing to Moscow. Once-in-a-lifetime experience.
+noindex: true
 ---
 
 ![The Trans-Siberian Railway At Ulan Bator](https://lh6.googleusercontent.com/-2lYgbyQYlOs/TgOLNhCEJtI/AAAAAAAAYYs/0M1m0LRHYyY/s1000/IMG_2841.JPG)

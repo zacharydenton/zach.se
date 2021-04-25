@@ -1,6 +1,7 @@
 ---
 title: San Francisco and Silicon Valley
 excerpt: Always a pleasure to visit this part of the country.
+noindex: true
 ---
 
 ![A rocky section of the California coast](https://lh3.googleusercontent.com/-cY4HcgIhpJ4/TgN5iOHDRrI/AAAAAAAAXrY/CtCabSHYPLY/s1000/IMG_2604.JPG)
