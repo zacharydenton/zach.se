@@ -14,3 +14,4 @@ _deploy
 dist-newstyle
 stack.yaml.lock
 package-lock.json
+.firebase
