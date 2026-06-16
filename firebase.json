@@ -5,7 +5,13 @@
       "source": "**",
       "headers": [{
         "key": "Cache-Control",
-        "value": "max-age=2628000, public"
+        "value": "no-cache"
+      }]
+    }, {
+      "source": "**/*.@(jpg|jpeg|png|gif|svg|webp|ico|woff|woff2|ttf|otf|eot)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "public, max-age=2628000, immutable"
       }]
     }],
     "redirects": [{
