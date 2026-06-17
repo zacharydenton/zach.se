@@ -88,16 +88,7 @@
         document.body.appendChild(fragment)
     }
 
-    if (navigator.gpu) {
-        // try the WebGPU flame; hero.js falls back to the original composition
-        // (via __flameFallback) if there's no usable GPU or the engine errors.
-        window.__flameFallback = createSpace
-        var s = document.createElement("script")
-        s.type = "module"
-        s.src = "/flame/hero.js"
-        s.onerror = createSpace
-        document.head.appendChild(s)
-    } else {
-        createSpace()
-    }
+    // Flame hero disabled — always render the original composition. (Re-enable by
+    // restoring the navigator.gpu branch that injects /flame/hero.js.)
+    createSpace()
 })();
