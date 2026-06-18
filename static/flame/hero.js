@@ -35,16 +35,27 @@ async function start() {
   document.head.appendChild(style);
 
   const sizeCanvas = () => {
-    const dpr = window.devicePixelRatio || 1;
-    canvas.width = Math.max(1, Math.floor(window.innerWidth * dpr));
-    canvas.height = Math.max(1, Math.floor(window.innerHeight * dpr));
+    // Cap render resolution: the chaos-game scatter + per-pixel tonemap is the
+    // cost on weak iGPUs, and a Retina hero would otherwise render ~4x the pixels.
+    // The canvas is CSS-stretched to fill the viewport, so it stays full-bleed —
+    // modest softness for a big speedup. Matches the standalone web/index.html.
+    const dpr = Math.min(window.devicePixelRatio || 1, 1.25);
+    const maxDim = 1536;
+    let w = window.innerWidth * dpr, h = window.innerHeight * dpr;
+    const s = Math.min(1, maxDim / Math.max(w, h, 1));
+    canvas.width = Math.max(1, Math.floor(w * s));
+    canvas.height = Math.max(1, Math.floor(h * s));
   };
   sizeCanvas();
   window.addEventListener('resize', sizeCanvas);
 
   try {
-    const { default: init, run } = await import('./flame.js');
-    await init();
+    // cache-bust the wasm URL: Chrome caches the COMPILED module by URL, so a fresh
+    // build isn't picked up without this. Resolve against import.meta.url (this
+    // module's dir, /flame/) — a bare './' would resolve against the PAGE (/) → 404.
+    const v = Date.now();
+    const { default: init, run } = await import('./flame.js?v=' + v);
+    await init({ module_or_path: new URL('flame_bg.wasm?v=' + v, import.meta.url) });
     await run('flame-bg');
   } catch (e) {
     console.error('[flame] WebGPU engine error, falling back to the classic front page:', e);
